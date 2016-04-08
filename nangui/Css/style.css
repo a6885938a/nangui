@@ -6710,7 +6710,7 @@ form._default textarea {
 
 .is-site-bg-img .site-bg-img {
   display: block;
-  background-image: url(../Images/site-bg-img.jpg);
+  background-image: url(../images/site-bg-img.jpg);
 }
 
 .is-site-bg-slideshow .site-bg-img {
@@ -6719,12 +6719,12 @@ form._default textarea {
 
 .is-site-bg-video .site-bg-img {
   display: block;
-  background-image: url(../Images/site-bg-video.jpg);
+  background-image: url(../images/site-bg-video.jpg);
 }
 
 .is-site-bg-video-youtube .site-bg-img {
   display: block;
-  background-image: url(../Images/site-bg-video-youtube.jpg);
+  background-image: url(../images/site-bg-video-youtube.jpg);
 }
 
 .is-desktop .is-site-bg-video .site-bg-video,
