@@ -4654,7 +4654,7 @@
 }
 
 .block-default a:not(.btn) {
-  color: #786de4;
+  color: #fb0304;
 }
 
 .block-default a:not(.btn):focus,
@@ -4806,7 +4806,7 @@
 }
 
 .block-light a:not(.btn) {
-  color: #786de4;
+  color: #fb0304;
 }
 
 .block-light a:not(.btn):focus,
@@ -4820,7 +4820,7 @@
 }
 
 .block-primary {
-  background-color: #786de4;
+  background-color: #fb0304;
   color: white;
 }
 
@@ -4892,7 +4892,7 @@
 }
 
 .color-primary {
-  color: #786de4 !important;
+  color: #fb0304 !important;
 }
 
 .block-info {
@@ -5875,14 +5875,14 @@ form._default textarea {
 .btn-default {
   border-color: #fff;
   background-color: #fff;
-  color: #786de4;
+  color: #fb0304;
 }
 
 .btn-default:focus,
 .btn-default:hover {
   border-color: #ededed;
   background-color: #ededed;
-  color: #786de4;
+  color: #fb0304;
 }
 
 .btn-default:active,
@@ -5890,7 +5890,7 @@ form._default textarea {
 .btn-default:active:hover {
   border-color: #ededed;
   background-color: #ededed;
-  color: #786de4;
+  color: #fb0304;
 }
 
 .btn-invert {
@@ -5915,8 +5915,8 @@ form._default textarea {
 }
 
 .btn-primary {
-  border-color: #786de4;
-  background-color: #786de4;
+  border-color: #fb0304;
+  background-color: #fb0304;
   color: #fff;
 }
 
@@ -5930,14 +5930,14 @@ form._default textarea {
 .btn-primary:active,
 .btn-primary:active:focus,
 .btn-primary:active:hover {
-  border-color: #786de4;
-  background-color: #786de4;
+  border-color: #fb0304;
+  background-color: #000;
   color: #fff;
 }
 
 .btn-accent {
-  border-color: #786de4;
-  background-color: #786de4;
+  border-color: #fb0304;
+  background-color: #fb0304;
   color: #fff;
 }
 
@@ -5951,8 +5951,8 @@ form._default textarea {
 .btn-accent:active,
 .btn-accent:active:focus,
 .btn-accent:active:hover {
-  border-color: #786de4;
-  background-color: #786de4;
+  border-color: #fb0304;
+  background-color: #fb0304;
   color: #fff;
 }
 
@@ -6283,28 +6283,31 @@ form._default textarea {
   height: auto;
   line-height: inherit;
   padding: 0;
-}
 
+}
+@media (max-width: 768px) {
 .navbar-brand img {
-  max-height: 35px;
+  max-height: 40px;
 }
-
-@media (min-width: 992px) {
-  .navbar-brand img {
-    max-height: 40px;
-  }
-}
-
 .navbar-brand-wrap {
   display: table;
   height: 56px;
 }
-
-@media (min-width: 768px) {
-  .navbar-brand-wrap {
-    height: 100px;
-  }
 }
+@media (min-width: 992px) {
+  .navbar-brand img {
+    max-height: 60px;
+  }
+  .navbar-brand-wrap {
+  display: table;
+  height: 100px;
+}
+}
+
+
+
+
+
 
 .navbar-brand {
   display: table-cell;
@@ -6433,7 +6436,7 @@ form._default textarea {
     height: 4px;
     -webkit-border-radius: 50px;
             border-radius: 50px;
-    background-color: #786de4;
+    background-color: #fb0304;
   }
 }
 
@@ -6885,7 +6888,7 @@ form._default textarea {
 
 @media (min-width: 768px) {
   #home {
-    padding: 230px 0 180px;
+
   }
 }
 
@@ -7078,3 +7081,6 @@ form._default textarea {
   opacity: 0.5;
   margin-top: 30px;
 }
+/*video*/
+.video_play{ position:absolute; left:50%; margin-left:-960px; top:0;   }
+.video_play video{ height:auto}

@@ -41,7 +41,7 @@ var _particles_link_opacity =                     .4; // [0.1 to 1] - particles 
 //
 
 // for desktop
-var _bg_style_desktop =                           1;
+var _bg_style_desktop =                           0;
                                                     // 0 = flat color
                                                     // 1 = flat color (mp3 audio)
                                                     // 2 = image
@@ -58,7 +58,7 @@ var _bg_style_desktop =                           1;
                                                     // 13 = youtube video (mp3 audio)
 
 // for mobile
-var _bg_style_mobile =                            1;
+var _bg_style_mobile =                            0;
                                                     // 0 = flat color
                                                     // 1 = flat color (mp3 audio)
                                                     // 2 = image
