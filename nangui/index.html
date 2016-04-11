@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <!--[if IE 9 ]><html class="ie ie9 no-js" lang="en"><![endif]-->
 <!--[if gt IE 9 | !IE]><!-->
-<html class="no-js" lang="en">
+<html lang="en">
 <!--<![endif]-->
 <head>
   <meta charset="utf-8">
@@ -20,14 +20,16 @@
   <script src='js/html5shiv.min.js'></script>
   <!--<![endif]-->
 </head>
-<body>
+<body  >
 
   <div class="site">
-    <div class="site-loader">
+     <!-- .site-loader -->
+    <div class="site-loader" style=" display:none;">
       <div class="site-loader-spinner"></div>
-    </div> <!-- .site-loader -->
+    </div>
+     <!-- .site-loader -->
 
-    <div class="site-canvas">
+    <div class="site-canvas1">
       <header class="site-header">
         <nav class="navbar navbar-theme">
           <div class="container">
@@ -59,7 +61,8 @@
           </div>
         </nav>
       </header> <!-- .site-header -->
-      <main class="site-main">
+     
+      <main class="site-main-1"><!--change-->
         <div id="home" class="section block-primary position-r align-c-xs-max">
         
           <!--<div id="particles-js" class="site-bg" style="display:none;">
@@ -70,9 +73,9 @@
             <canvas class="site-bg-canvas layer" data-depth=".30"></canvas>
           </div>--> <!-- .site-bg -->
    <div class="video_play"  >
-   <video id="video1" loop muted="muted" autoplay poster="/images/video_img.jpg" >
+   <video id="video1" loop muted="muted" autoplay controls poster="/images/video_img.jpg" >
  <source src="/images/Splacer_Dancer_VIDEO_1280x720.webm" type="video/webm" />
-        <source src="/images/video_p.mp4" type="video/mp4" -webkit-playsinline=true />
+        <source src="/images/video_p.mp4" type="video/mp4"/>
         <source src="/images/Splacer_Dancer_VIDEO_1280x720.ogv" type="video/ogg" />
    </video>
 
@@ -441,7 +444,10 @@
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src='js/bootstrap.min.js'></script>
   <script src='js/plugin.js'></script>
+
   <script src='js/variable.js'></script>
+
+
   <script src='js/main.js'></script>
 
 
