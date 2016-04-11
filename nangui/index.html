@@ -17,7 +17,7 @@
   <link rel='stylesheet' href='css/style.css'>
 
   <!--[if lte IE 9]><!-->
-  <script src='js/html5shiv.min.js'></script>
+  <script async src='js/html5shiv.min.js'></script>
   <!--<![endif]-->
 </head>
 <body  >
@@ -62,8 +62,8 @@
         </nav>
       </header> <!-- .site-header -->
      
-      <main class="site-main-1"><!--change-->
-        <div id="home" class="section block-primary position-r align-c-xs-max">
+      <main class="site-main-1" ><!--change-->
+        <div id="home" class="section block-primary position-r align-c-xs-max" >
         
           <!--<div id="particles-js" class="site-bg" style="display:none;">
             <div class="site-bg-img"></div>
@@ -72,11 +72,11 @@
             <div class="site-bg-effect layer" data-depth=".30"></div>
             <canvas class="site-bg-canvas layer" data-depth=".30"></canvas>
           </div>--> <!-- .site-bg -->
-   <div class="video_play"  >
-   <video id="video1" loop muted="muted" autoplay controls poster="/images/video_img.jpg" >
-        <source src="/images/video_p.mp4" type="video/mp4"/>
+   <div class="video_play" >
+   <video id="video1" autoplay loop muted="muted"   poster="/images/video_img.jpg"  webkit-playsinline >
+        <source src="/images/video_p.mp4" type="video/mp4"  -webkit-playsinline=true/>
    </video>
-
+<!--     -->
 
      
 </div>
@@ -85,11 +85,14 @@
               <div class="col-sm-6">
                 <div class="col-inner" data-sr="left">
                   <div class="section-heading">
-                    <h5>Flat Style Landing Page</h5>
-                    <h1>A Flat Style Landing Page For Your App / Product</h1>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+                
+                    <h1 style=" text-align:center;">自强不息 诚信是金</h1>
+                    <p>广东省著名商标</p>
+                    <p>国家质量监督认证</p>
+                    <p>广东省技术监督认证</p>
+                    <p>ISO9001质量体系认证</p>
                   </div> <!-- .section-heading -->
-                  <div class="section-content">
+                  <div class="section-content" style=" display:none;">
                     <a class="btn btn-pink m-y-5" href="#about">Learn More</a>
                     <a class="btn btn-warning m-y-5" href="#download">Get The App</a>
                   </div> <!-- .section-content -->
@@ -439,15 +442,15 @@
     </div>
   </div>
 
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src='js/bootstrap.min.js'></script>
-  <script src='js/plugin.js'></script>
+  <script async src="js/jquery-1.11.3.min.js"></script>
+  <script async src='js/bootstrap.min.js'></script>
+  <script async src='js/plugin.js'></script>
+<!--
+  <script async src='js/variable.js'></script>
 
-  <script src='js/variable.js'></script>
 
-
-  <script src='js/main.js'></script>
-
+  <script async src='js/main.js'></script>
+-->
 
 
 

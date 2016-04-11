@@ -4820,7 +4820,7 @@
 }
 
 .block-primary {
-  background-color: #fb0304;
+  background-color:#222;
   color: white;
 }
 
@@ -6618,7 +6618,7 @@ form._default textarea {
 .section-heading h5 {
   font-family: Merriweather, "Times New Roman", Times, serif;
   font-style: italic;
-  font-weight: 700;
+  font-weight: 1000;
   letter-spacing: 1px;
   margin-bottom: 5px;
 }
@@ -7068,5 +7068,7 @@ form._default textarea {
   margin-top: 30px;
 }
 /*video*/
-.video_play{ position:absolute; left:50%; margin-left:-960px; top:0;   }
-.video_play video{ height:auto}
+.video_play{ position:absolute; left:50%; margin-left:-960px; top:0;  }
+.video_play video{ }
+
+.section-heading p{ font-size:18px; text-align:center;}
