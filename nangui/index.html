@@ -15,6 +15,10 @@
   <link rel='stylesheet' href='css/bootstrap.min.css'>
   <link rel='stylesheet' href='css/vendor.css'>
   <link rel='stylesheet' href='css/style.css'>
+  		<link rel="stylesheet" type="text/css" media="screen" href="css/CSSreset.min.css" />
+<!--banner-->
+		<link id="skin" rel="stylesheet" type="text/css" media="screen" href="css/divas_free_skin.css" />
+<!--banner-->
 
   <!--[if lte IE 9]><!-->
   <script async src='js/html5shiv.min.js'></script>
@@ -52,7 +56,7 @@
                 <li class="active"><a href="#home">首页</a></li>
                 <li><a href="#about">优势产品</a></li>
                 <li><a href="#brief_1">走进南桂</a></li>
-                <li><a href="#pricing">成功案例</a></li>
+                <li><a href="#pricing">合作伙伴</a></li>
                 <li><a href="#download">资料下载</a></li>
                 <li><a href="#contact">联系我们</a></li>
                 <li class="audio-toggle"><a href="#"><i class="fa fa-volume-up"></i></a></li>
@@ -83,10 +87,10 @@
           <div class="container">
             <div class="row row-table">
               <div class="col-sm-6">
-                <div class="col-inner" data-sr="left">
+                <div class="col-inner" data-sr="left" style=" margin-top:-80px;">
                   <div class="section-heading">
                 
-                    <h1 style=" text-align:center;">自强不息 诚信是金</h1>
+                    <h1 style=" text-align:center;"><img width="100%" src="images/ziqiang.png"></h1>
                     <p>广东省著名商标</p>
                     <p>国家质量监督认证</p>
                     <p>广东省技术监督认证</p>
@@ -108,6 +112,35 @@
         </div> <!-- #home -->
         
         <div id="about" class="section p-a-0 align-c">
+          		<div class="prduct">
+			<div id="logo">
+				<a href="index.html"><img src="images/DivasSliderLogo.png" alt="南桂起重机 Logo" title="南桂起重机 Logo" /></a>
+			</div>
+	
+		<section id="slider_wrapper">
+			<div id="slider" class="divas-slider">
+				<ul class="divas-slide-container">
+		           <li class="divas-slide"><img src="images/placeholder.gif" alt="" data-src="images/slider/img1.jpg" data-title="<h1>南桂起重机</h1><p>Title is visible only if you use the attribute 'data-title' of your image</p>"/></li>
+		           <li class="divas-slide"><img src="images/placeholder.gif" alt="" data-src="images/slider/img2.jpg" data-title="<h1>南桂起重机</h1><p>Gives you the full freedom of clickable images</p>" /></li>
+		           <li class="divas-slide"><img src="images/placeholder.gif" alt="" data-src="images/slider/img4.jpg" data-title="<h1>南桂起重机</h1><p>Images use lazy loading via deferred object</p>"/></li>
+		           <li class="divas-slide"><img src="images/placeholder.gif" alt="" data-src="images/slider/img3.jpg" data-title="<h1>南桂起重机</h1><p>You can style it as you wish via CSS</p>"/></li>
+		           <li class="divas-slide"><img src="images/placeholder.gif" alt="" data-src="images/slider/img5.jpg" data-title="<h1>南桂起重机</h1><p>Uses CSS3 transitions or jQuery.animate() as a fallback</p>" /></li>
+		           <li class="divas-slide"><img src="images/placeholder.gif" alt="" data-src="images/slider/img6.jpg" data-title="<h1>南桂起重机</h1><p>You can set up almost any slider style your desire</p>" /></li>
+		           <li class="divas-slide"><img src="images/placeholder.gif" alt="" data-src="images/slider/img7.jpg" data-title="<h1>南桂起重机</h1><p>Gives you extensive documentation and friendly support</p>" /></li>
+			    </ul>
+			    <div class="divas-navigation">
+			        <span class="divas-prev">&nbsp;</span>
+			        <span class="divas-next">&nbsp;</span>
+			    </div>
+                <div class="divas-controls">
+                	<span class="divas-start"><i class="fa fa-play"></i></span>
+			        <span class="divas-stop"><i class="fa fa-pause"></i></span>
+                </div>
+			</div>
+		</section>
+        </div>
+        </div> <!-- #about -->
+<div id="about" class="section p-a-0 align-c" style="display:none;">
           <div class="container-fluid p-x-0">
             <div class="row row-table">
               <div class="col-sm-4 block-invert p-x-30-sm-max p-x-60-md-min p-t-20-sm-min align-t-sm-min">
@@ -159,8 +192,7 @@
               </div>
             </div>
           </div>
-        </div> <!-- #about -->
-
+        </div>
         <div id="brief_1" class="section block-default align-c-xs-max">
           <div class="container">
             <div class="row row-table">
@@ -451,7 +483,20 @@
 
   <script async src='js/main.js'></script>
 -->
-
+		<script type="text/javascript" src="js/jquery.divas-1.0.min.js"></script><!--banner-->
+		<script type="text/javascript">
+			$(document).ready(function()
+			{
+				$("#slider").divas({
+					slideTransitionClass: "divas-slide-transition-left",
+					titleTransitionClass: "divas-title-transition-left",
+					titleTransitionParameter: "left",
+					titleTransitionStartValue: "-999px",
+					titleTransitionStopValue: "0px",
+					wingsOverlayColor: "rgba(0,0,0,0.6)"
+				});
+			});
+		</script>
 
 
 </body>
