@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <!--[if IE 9 ]><html class="ie ie9 no-js" lang="en"><![endif]-->
 <!--[if gt IE 9 | !IE]><!-->
-<html class="no-js" lang="en">
+<html lang="en">
 <!--<![endif]-->
 <head>
   <meta charset="utf-8">
@@ -15,19 +15,25 @@
   <link rel='stylesheet' href='css/bootstrap.min.css'>
   <link rel='stylesheet' href='css/vendor.css'>
   <link rel='stylesheet' href='css/style.css'>
+  		<link rel="stylesheet" type="text/css" media="screen" href="css/CSSreset.min.css" />
+<!--banner-->
+		<link id="skin" rel="stylesheet" type="text/css" media="screen" href="css/divas_free_skin.css" />
+<!--banner-->
 
   <!--[if lte IE 9]><!-->
-  <script src='js/html5shiv.min.js'></script>
+  <script async src='js/html5shiv.min.js'></script>
   <!--<![endif]-->
 </head>
-<body>
+<body  >
 
   <div class="site">
-    <div class="site-loader">
+     <!-- .site-loader -->
+    <div class="site-loader" style=" display:none;">
       <div class="site-loader-spinner"></div>
-    </div> <!-- .site-loader -->
+    </div>
+     <!-- .site-loader -->
 
-    <div class="site-canvas">
+    <div class="site-canvas1">
       <header class="site-header">
         <nav class="navbar navbar-theme">
           <div class="container">
@@ -50,7 +56,7 @@
                 <li class="active"><a href="#home">首页</a></li>
                 <li><a href="#about">优势产品</a></li>
                 <li><a href="#brief_1">走进南桂</a></li>
-                <li><a href="#pricing">成功案例</a></li>
+                <li><a href="#pricing">合作伙伴</a></li>
                 <li><a href="#download">资料下载</a></li>
                 <li><a href="#contact">联系我们</a></li>
                 <li class="audio-toggle"><a href="#"><i class="fa fa-volume-up"></i></a></li>
@@ -59,26 +65,27 @@
           </div>
         </nav>
       </header> <!-- .site-header -->
-      <main class="site-main">
-        <div id="home" class="section block-primary position-r align-c-xs-max">
-          <div id="particles-js" class="site-bg">
-            <div class="site-bg-img"></div>
-            <div class="site-bg-video"></div>
-            <div class="site-bg-overlay"></div>
-            <div class="site-bg-effect layer" data-depth=".30"></div>
-            <canvas class="site-bg-canvas layer" data-depth=".30"></canvas>
-          </div> <!-- .site-bg -->
-
+     
+      <main class="site-main-1" ><!--change-->
+        <div id="home" class="section block-primary position-r align-c-xs-max" >
+   <div class="video_play" >
+   <video id="video1" autoplay loop muted="muted"   poster="/images/video_img.jpg"  webkit-playsinline >
+        <source src="/images/video_p.mp4" type="video/mp4"  -webkit-playsinline=true/>
+   </video>
+</div>
           <div class="container">
             <div class="row row-table">
               <div class="col-sm-6">
-                <div class="col-inner" data-sr="left">
+                <div class="col-inner" data-sr="left" style=" margin-top:-80px;">
                   <div class="section-heading">
-                    <h5>Flat Style Landing Page</h5>
-                    <h1>A Flat Style Landing Page For Your App / Product</h1>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+                
+                    <h1 style=" text-align:center;"><img width="100%" src="images/ziqiang.png"></h1>
+                    <p>广东省著名商标</p>
+                    <p>国家质量监督认证</p>
+                    <p>广东省技术监督认证</p>
+                    <p>ISO9001质量体系认证</p>
                   </div> <!-- .section-heading -->
-                  <div class="section-content">
+                  <div class="section-content" style=" display:none;">
                     <a class="btn btn-pink m-y-5" href="#about">Learn More</a>
                     <a class="btn btn-warning m-y-5" href="#download">Get The App</a>
                   </div> <!-- .section-content -->
@@ -92,64 +99,36 @@
             </div>
           </div>
         </div> <!-- #home -->
-
-
-
-          
-        </div>
-   
+        
         <div id="about" class="section p-a-0 align-c">
-          <div class="container-fluid p-x-0">
-            <div class="row row-table">
-              <div class="col-sm-4 block-invert p-x-30-sm-max p-x-60-md-min p-t-20-sm-min align-t-sm-min">
-                <div class="col-inner p-y-50-sm-min p-y-30-xs-max max-width m-x-auto-xs-max">
-                  <div class="icon-box _center">
-                    <div class="icon-box-media">
-                      <img src="picture/rocket.png" alt="" data-sr="bottom">
-                    </div>
-                    <div class="icon-box-heading">
-                      <h3>About App / Product</h3>
-                    </div>
-                    <div class="icon-box-content">
-                      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                    </div>
-                  </div>
+          		<div class="prduct">
+			<div id="logo">
+				<a href="index.html"><img src="images/DivasSliderLogo.png" alt="南桂起重机 Logo" title="南桂起重机 Logo" /></a>
+			</div>
+	      <img src="images/placeholder.gif" alt="" data-src="images/slider/img1.jpg" data-title="<h1>南桂起重机</h1><p>Title is visible only if you use the attribute 'data-title' of your image</p>"/>
+		<div id="slider_wrapper">
+  
+			<div id="slider" class="divas-slider" style="height:200px; ">
+				<ul class="divas-slide-container">
+		           <li class="divas-slide"><img src="images/placeholder.gif" alt="" data-src="images/slider/img1.jpg" data-title="<h1>南桂起重机</h1><p>Title is visible only if you use the attribute 'data-title' of your image</p>"/></li>
+		           <li class="divas-slide"><img src="images/placeholder.gif" alt="" data-src="images/slider/img2.jpg" data-title="<h1>南桂起重机</h1><p>Gives you the full freedom of clickable images</p>" /></li>
+		           <li class="divas-slide"><img src="images/placeholder.gif" alt="" data-src="images/slider/img4.jpg" data-title="<h1>南桂起重机</h1><p>Images use lazy loading via deferred object</p>"/></li>
+		           <li class="divas-slide"><img src="images/placeholder.gif" alt="" data-src="images/slider/img3.jpg" data-title="<h1>南桂起重机</h1><p>You can style it as you wish via CSS</p>"/></li>
+		           <li class="divas-slide"><img src="images/placeholder.gif" alt="" data-src="images/slider/img5.jpg" data-title="<h1>南桂起重机</h1><p>Uses CSS3 transitions or jQuery.animate() as a fallback</p>" /></li>
+		           <li class="divas-slide"><img src="images/placeholder.gif" alt="" data-src="images/slider/img6.jpg" data-title="<h1>南桂起重机</h1><p>You can set up almost any slider style your desire</p>" /></li>
+		           <li class="divas-slide"><img src="images/placeholder.gif" alt="" data-src="images/slider/img7.jpg" data-title="<h1>南桂起重机</h1><p>Gives you extensive documentation and friendly support</p>" /></li>
+			    </ul>
+			    <div class="divas-navigation">
+			        <span class="divas-prev">&nbsp;</span>
+			        <span class="divas-next">&nbsp;</span>
+			    </div>
+                <div class="divas-controls">
+                	<span class="divas-start"><i class="fa fa-play"></i></span>
+			        <span class="divas-stop"><i class="fa fa-pause"></i></span>
                 </div>
-              </div>
-
-              <div class="col-sm-4 block-pink p-x-30-sm-max p-x-60-md-min p-t-20-sm-min align-t-sm-min">
-                <div class="col-inner p-y-50-sm-min p-y-30-xs-max max-width m-x-auto-xs-max">
-                  <div class="icon-box _center">
-                    <div class="icon-box-media">
-                      <img src="picture/crown.png" alt="" data-sr="bottom">
-                    </div>
-                    <div class="icon-box-heading">
-                      <h3>About App / Product</h3>
-                    </div>
-                    <div class="icon-box-content">
-                      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-sm-4 block-light p-x-30-sm-max p-x-60-md-min p-t-20-sm-min align-t-sm-min">
-                <div class="col-inner p-y-50-sm-min p-y-30-xs-max max-width m-x-auto-xs-max">
-                  <div class="icon-box _center">
-                    <div class="icon-box-media">
-                      <img src="picture/diamond.png" alt="" data-sr="bottom">
-                    </div>
-                    <div class="icon-box-heading">
-                      <h3>About App / Product</h3>
-                    </div>
-                    <div class="icon-box-content">
-                      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+			</div>
+		</div>
+        </div>
         </div> <!-- #about -->
 
         <div id="brief_1" class="section block-default align-c-xs-max">
@@ -433,13 +412,30 @@
     </div>
   </div>
 
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src='js/bootstrap.min.js'></script>
-  <script src='js/plugin.js'></script>
-  <script src='js/variable.js'></script>
-  <script src='js/main.js'></script>
+  <script async src="js/jquery-1.11.3.min.js"></script>
+  <script async src='js/bootstrap.min.js'></script>
+  	<script type="text/javascript" src="js/jquery.divas-1.0.min.js"></script><!--banner-->
+		<script type="text/javascript">
+			$(document).ready(function()
+			{
+				$("#slider").divas({
+					slideTransitionClass: "divas-slide-transition-left",
+					titleTransitionClass: "divas-title-transition-left",
+					titleTransitionParameter: "left",
+					titleTransitionStartValue: "-999px",
+					titleTransitionStopValue: "0px",
+					wingsOverlayColor: "rgba(0,0,0,0.6)"
+				});
+			});
+		</script>
+  <script async src='js/plugin.js'></script>
+
+  <script async src='js/variable.js'></script>
 
 
+  <script async src='js/main.js'></script>
+
+	
 
 
 </body>

@@ -31,6 +31,7 @@
 /**
  * clearfix
  */
+ body{ font-family: "microsoft yahei",sans-serif}
 .clearfix:before,
 .clearfix:after {
   content: "";
@@ -7072,3 +7073,4 @@ form._default textarea {
 .video_play video{ }
 
 .section-heading p{ font-size:18px; text-align:center;}
+.divas-caption p{ font:10px;}
