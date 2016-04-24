@@ -5280,11 +5280,11 @@
  * font family
  */
 .font-default {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "microsoft yahei", Arial, sans-serif;
 }
 
 .font-alt {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "microsoft yahei", Arial, sans-serif;
 }
 
 .font-sub {
@@ -5539,7 +5539,7 @@ body {
   line-height: 1.9;
   background-color: #fff;
   color: #212121;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "microsoft yahei", Arial, sans-serif;
   font-size: 13px;
   font-weight: 400;
   letter-spacing: 0;
@@ -5556,7 +5556,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.3;
   margin-top: 0;
   margin-bottom: 10px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "microsoft yahei", Arial, sans-serif;
   font-weight: 900;
   text-transform: capitalize;
   letter-spacing: 0;
@@ -5843,7 +5843,7 @@ form._default textarea {
   border-width: 2px;
   -webkit-border-radius: 4px;
           border-radius: 4px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "microsoft yahei", Arial, sans-serif;
   font-size: 12px;
   font-weight: 900;
   text-transform: uppercase;
@@ -7074,12 +7074,16 @@ form._default textarea {
 
 .section-heading p{ font-size:18px; text-align:center;}
 .divas-caption p{ font:10px;}
-#about .product{ width:100%;background:url(../images/index_all_bg_0.jpg); background-size:100%;}
+#about .product{ width:100%;background:url(../images/index_all_bg_0.jpg) ; padding:8px 0;background-size:100%;}
 .product .container{}
 .product .col-md-12, .product .col-xs-6, .product .col-sm-4, .product .col-md-3, .product .col-md-2 {
 	padding: 0;
 	margin: 0;
 }
-.product img {
+.product img,#pricing img{
 	width: 100%
 }
+.product h1{ text-indent:-9999px; height:0; line-height:0; margin:0; padding:0;}
+
+#brief_1 p{ margin-bottom: 10px; text-indent:30px;}
+#pricing { color:#313131;}
