@@ -21,12 +21,12 @@ include dirname(__FILE__).'/header.php';
     <div class="row clearfix">
       <div class="col-md-12 column">
         <ul class="breadcrumb">
-          <li> <a href="/index.php">首页</a> </li>
-          <li> <a href="/shop.php">商城</a> </li>
+          <li> <a href="/index.html">首页</a> </li>
+          <li> <a href="/index.html#about">优势产品</a> </li>
           <li class="active">
-            <h1>生活记录套装</h1>
+            <h1>铝型材手自一体专用氧化机</h1>
           </li>
-          <div class="qrcode  visible-md visible-lg">
+          <div class="qrcode  visible-md visible-lg ">
             <div class="mob-s" >手机扫码分享</div>
             <div id="output"></div>
           </div>
@@ -39,15 +39,14 @@ include dirname(__FILE__).'/header.php';
           <div id="myCarousel" class="carousel slide" style="overflow: hidden;">
             <div class="carousel-inner">
               <div class="item active">
-                <div class="inner-item"> <img src="../images/produt/life/header.jpg" alt="" class="img-responsive center-block img-rounded" /> </div>
+                <div class="inner-item"> <img src="../images/nh_product/szyt.jpg" alt="" class="img-responsive center-block img-rounded" /> </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col-md-9 product-price-wrapper">
-          <h3><span>生活记录套装 - 运动相机玩家 zakitam 推荐|GoPro HERO+LCD</span></h3>
-          <div class="form-group hidden-xs"> <a class="btn btn-primary" href="https://item.taobao.com/item.htm?spm=a1z10.1-c.w10120540-11335991006.6.Zu3nCF&id=520156927529" target="_blank"> 去淘宝购买 </a> </div>
-          <div class="form-group visible-xs navbar-fixed-bottom"> <a class="btn btn-primary btn-block" href="https://item.taobao.com/item.htm?spm=a1z10.1-c.w10120540-11335991006.6.Zu3nCF&id=520156927529" target="_blank"> 去淘宝购买 </a> </div>
+          <h3><span>铝型材手自一体专用氧化机</span></h3>
+     
         </div>
       </div>
       <div class="row">

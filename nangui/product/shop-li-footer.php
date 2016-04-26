@@ -1,4 +1,14 @@
-
+<!--回到顶部-->
+<div class="returntop">
+  <div id="rocket-to-top">
+    <div style="opacity:0;display:block;" class="level-2"></div>
+    <div class="level-3"></div>
+  </div>
+</div>
+<div id="rocket-wrap-lit" class="visible-xs">
+  <div id="rocket-lit" style="display: block;"></div>
+</div>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script> 
 <script type="text/javascript" src="../js/jquery.qrcode.min.js"></script><!--二维码--> 
 <script type="text/javascript" src="../js/stickUp.min.js"></script> 
 <script type="text/javascript"> 
@@ -30,3 +40,4 @@ $(".qrcode").toggleClass("on-hover");
         });
       });
     </script>
+	<script src='../js/totop.js'></script> 
