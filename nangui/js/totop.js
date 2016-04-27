@@ -1,5 +1,6 @@
 
-//回到顶部
+//回到顶部.
+
         $(function() {
             var e = $("#rocket-to-top"),
             t = $(document).scrollTop(),
@@ -73,6 +74,6 @@
     });
 	
 			$('#rocket-lit').click(function(){
-    $("html,body").animate({scrollTop:$(".site-header").offset().top},500);
+    $("html,body").animate({scrollTop:$("body").offset().top},500);
 });
         });

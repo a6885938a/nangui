@@ -24,7 +24,7 @@ include dirname(__FILE__).'/header.php';
           <li> <a href="/index.html">首页</a> </li>
           <li> <a href="/index.html#about">优势产品</a> </li>
           <li class="active">
-            <h1>铝型材手自一体专用氧化机</h1>
+            <h1>CEDY型0.5t+o.5t~3t+3t铝型材专用全自动氧化起重机</h1>
           </li>
           <div class="qrcode  visible-md visible-lg ">
             <div class="mob-s" >手机扫码分享</div>
@@ -45,8 +45,7 @@ include dirname(__FILE__).'/header.php';
           </div>
         </div>
         <div class="col-md-9 product-price-wrapper">
-          <h3><span>铝型材手自一体专用氧化机</span></h3>
-     
+          <h3><span>CEDY型0.5t+o.5t~3t+3t铝型材专用全自动氧化起重机</span></h3>
         </div>
       </div>
       <div class="row">
@@ -61,8 +60,32 @@ include dirname(__FILE__).'/shop-group-li.php';
               </div>
               <div class="supplyContent" >
                 <div id="myTab1Content" class="tab-content">
-                  <div class="tab-pane fade in active" id="home">
-                    <p> <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/produt/life/1.jpg"> <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/produt/life/2.jpg"> <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/produt/life/3.jpg"> <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/produt/life/4.jpg"> <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/produt/life/5.jpg"> <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/produt/life/5-2.jpg"> <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/produt/life/6.jpg"> <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/produt/life/7.jpg"> <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/produt/life/8.jpg"> <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/produt/life/9.jpg"> <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/produt/life/10.jpg"> <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/produt/life/11.jpg"> <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/produt/life/12.jpg"> </p>
+                  <div class="tab-pane fade in active">
+                    <p> <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/nh_product/szyt/20160427_235226_000.jpg"> 
+                    <br/>   <br/>
+                    <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/nh_product/szyt/20160427_235226_0000.jpg"><p>产品特点：节省人工、生产高效、定位精确、安全可靠
+本机专用于铝型材氧化、电泳、喷涂、着色等，适用于温度高，带有腐蚀性、酸性气体等的环境中。整机的钢结构件表面经抛丸打砂处理，涂环氧富锌底漆、云铁中间漆、和防腐面漆。大车采用集中驱动、变频电机（带制动），双输出，走齿条，可选择固定钩或带开合机构（采用螺纹丝杆，锡青铜螺母，3个够，每次吊3排料）。由电脑系统集中控制，可以保存多套程序，可选择手动、半自动和全自动功能。
+ 
+</p><p>全自动氧化机图纸： </p> <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/nh_product/szyt/20160427_235226_001.jpg">     <br/>   <br/>
+ <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/nh_product/szyt/20160427_235226_0001.jpg">
+
+ <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/nh_product/szyt/20160427_235226_002.jpg">     <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/nh_product/szyt/20160427_235226_003.jpg">  <br/>   <br/> <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/nh_product/szyt/20160427_235226_004.jpg"> <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/nh_product/szyt/20160427_235226_005.jpg"> <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/nh_product/szyt/20160427_235226_006.jpg">
+  <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/nh_product/szyt/20160427_235226_0002.jpg">
+  <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/nh_product/szyt/20160427_235226_007.jpg">
+    <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/nh_product/szyt/20160427_235226_0003.jpg">
+                    <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/nh_product/szyt/20160427_235226_008.jpg">
+                       <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/nh_product/szyt/20160427_235226_0004.jpg">
+                    <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/nh_product/szyt/20160427_235226_009.jpg"> 
+                       <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/nh_product/szyt/20160427_235226_0005.jpg">
+                     <img class="lazy" src="http://www.zakitam.com/images/loading.jpg" data-original="../images/nh_product/szyt/20160427_235226_010.jpg"> </p>
+                     <p>
+                   欢迎各界新老顾客使用南桂起重机<br/>
+联系方式<br/>
+王经理： <a style="color:#313131;"href="tel:13802687981">13802687981</a>&nbsp;&nbsp; <a style="color:#313131;"href="tel:13802684317">13802684317</a><br/>
+梁小姐： <a style="color:#313131;"href="tel:18144775930">18144775930</a>&nbsp;&nbsp; <a style="color:#313131;"href="tel:18689315108">18689315108</a><br/>
+江小姐： <a style="color:#313131;"href="tel:18825520083">18825520083</a><br/>
+                     
+                     </p>
                   </div>
                 </div>
                 <div class="cl" ></div>
@@ -75,11 +98,10 @@ include dirname(__FILE__).'/shop-group-li.php';
   </div>
 </div>
 <?php
-include dirname(__FILE__).'/delayload.php'; 
-?>
-<?php
 include dirname(__FILE__).'/shop-li-footer.php'; 
 ?>
-
+<?php
+include dirname(__FILE__).'/delayload.php'; 
+?>
 </body>
 </html>

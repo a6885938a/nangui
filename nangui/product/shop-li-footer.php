@@ -9,17 +9,13 @@
   <div id="rocket-lit" style="display: block;"></div>
 </div>
 <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script> 
-<script type="text/javascript" src="../js/jquery.qrcode.min.js"></script><!--二维码--> 
-<script type="text/javascript" src="../js/stickUp.min.js"></script> 
+<script type="text/javascript" src='../js/bootstrap.min.js'></script> 
+<script src='../js/totop.js'></script> <!--回到顶部-->
+<script src="../js/jquery.qrcode.min.js"></script><!--二维码--> 
+<script src="../js/stickUp.min.js"></script> 
+
 <script type="text/javascript"> 
 $(document).ready(function(){ 
-	$(".navbar-toggle").click(function(){
-$(".navbar").toggleClass("navblue-on");
-});
-$(".dropdown-toggle").click(function(){
-$(".dropdown-menu").toggleClass("large");
-});
-$(".navbar-blue").addClass("large");
 	$(".qrcode").hover(function(){
 $(".qrcode").toggleClass("on-hover");
 });
@@ -40,4 +36,3 @@ $(".qrcode").toggleClass("on-hover");
         });
       });
     </script>
-	<script src='../js/totop.js'></script> 
