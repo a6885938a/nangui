@@ -8,10 +8,10 @@
           <!-- .navbar-header -->
           <div class="collapse navbar-collapse" id="navbar-collapse" >
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="/index.html">首页</a></li>
-              <li class="active"><a href="/index.html#about">优势产品</a></li>
-              <li><a href="/index.html#brief_1">走进南桂</a></li>
-              <li><a href="/index.html#pricing">合作伙伴</a></li>
+              <li><a href="../index.html">首页</a></li>
+              <li class="active"><a href="../index.html#about">优势产品</a></li>
+              <li><a href="../index.html#brief_1">走进南桂</a></li>
+              <li><a href="../index.html#pricing">合作伙伴</a></li>
               <li><a href="/index.html#download">资料下载</a></li>
               <li><a href="/index.html#contact">联系我们</a></li>
               <li class="audio-toggle"><a href="#"><i class="fa fa-volume-up"></i></a></li>
