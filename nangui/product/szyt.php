@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>铝型材专用全自动氧化起重机</title>
+<title>铝型材手自一体专用氧化线</title>
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="author" content="">
@@ -43,7 +43,7 @@ include dirname(__FILE__).'/header.php';
           </div>
         </div>
         <div class="col-md-9 product-price-wrapper">
-          <h3><span>CEDY型0.5t+o.5t~3t+3t铝型材专用全自动氧化起重机</span></h3>
+          <h3><span>铝型材手自一体专用氧化线</span></h3>
         </div>
       </div>
       <div class="row">
@@ -79,9 +79,7 @@ include dirname(__FILE__).'/shop-group-li.php';
                      <p style="padding:0 8px;">
                    欢迎各界新老顾客使用南桂起重机<br/>
 联系方式<br/>
-王经理： <a style="color:#313131;"href="tel:13802687981">13802687981</a>&nbsp;&nbsp; <a style="color:#313131;"href="tel:13802684317">13802684317</a><br/>
-梁小姐： <a style="color:#313131;"href="tel:18144775930">18144775930</a>&nbsp;&nbsp; <a style="color:#313131;"href="tel:18689315108">18689315108</a><br/>
-江小姐： <a style="color:#313131;"href="tel:18825520083">18825520083</a><br/>
+销售热线：<a style="color:#313131;"href="tel:0757-87655338">0757-87655338</a><br/>
                      
                      </p>
                   </div>

@@ -43,7 +43,7 @@ include dirname(__FILE__).'/header.php';
           </div>
         </div>
         <div class="col-md-9 product-price-wrapper">
-          <h3><span>室内室外工厂车间移动专用双梁门式起重机龙门架起重设备</span></h3>
+          <h3><span>门式起重机</span></h3>
         </div>
       </div>
       <div class="row">
@@ -80,9 +80,7 @@ include dirname(__FILE__).'/shop-group-li.php';
                      <p style="padding:0 8px;">
                    欢迎各界新老顾客使用南桂起重机<br/>
 联系方式<br/>
-王经理： <a style="color:#313131;"href="tel:13802687981">13802687981</a>&nbsp;&nbsp; <a style="color:#313131;"href="tel:13802684317">13802684317</a><br/>
-梁小姐： <a style="color:#313131;"href="tel:18144775930">18144775930</a>&nbsp;&nbsp; <a style="color:#313131;"href="tel:18689315108">18689315108</a><br/>
-江小姐： <a style="color:#313131;"href="tel:18825520083">18825520083</a><br/>
+销售热线：<a style="color:#313131;"href="tel:0757-87655338">0757-87655338</a><br/>
                      
                      </p>
                   </div>
