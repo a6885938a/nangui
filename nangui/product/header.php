@@ -12,8 +12,7 @@
               <li class="active"><a href="../index.html#about">优势产品</a></li>
               <li><a href="../index.html#brief_1">走进南桂</a></li>
               <li><a href="../index.html#pricing">合作伙伴</a></li>
-              <li><a href="/index.html#download">资料下载</a></li>
-              <li><a href="/index.html#contact">联系我们</a></li>
+              <li><a href="../index.html#contact">联系我们</a></li>
               <li class="audio-toggle"><a href="#"><i class="fa fa-volume-up"></i></a></li>
             </ul>
           </div>

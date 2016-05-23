@@ -21,8 +21,8 @@ include dirname(__FILE__).'/header.php';
     <div class="row clearfix">
       <div class="col-md-12 column">
         <ul class="breadcrumb">
-          <li> <a href="/index.html">首页</a> </li>
-          <li> <a href="/index.html#about">优势产品</a> </li>
+          <li> <a href="../index.html">首页</a> </li>
+          <li> <a href="../index.html#about">优势产品</a> </li>
          
           <div class="qrcode  visible-md visible-lg ">
             <div class="mob-s" >手机扫码分享</div>

@@ -6046,6 +6046,9 @@ form._default textarea {
 	left: 50%;
 	margin-left: -960px;
 	top: 0;
+	width:1920px;
+	height:768px;
+	background:url(../images/video_img.jpg);
 
 }
 .video_play video {
