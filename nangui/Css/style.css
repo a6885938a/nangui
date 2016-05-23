@@ -5375,12 +5375,15 @@ form._default textarea {
 	line-height: inherit;
 	padding: 0;
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
 .navbar-brand img {
 	max-height: 40px;
 }
 .navbar-brand-wrap {
 	display: table;
+	height: 56px;
+}
+.navbar-toggle {
 	height: 56px;
 }
 }
@@ -5455,7 +5458,7 @@ form._default textarea {
 	-o-transform: rotate(90deg);
 	transform: rotate(90deg);
 }
- @media (min-width: 768px) {
+ @media (min-width: 992px) {
 .navbar-toggle {
 	height: 100px;
 }
