@@ -13,16 +13,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="icon" href="assets/img/favicon.ico">
 <link rel='stylesheet' href='css/bootstrap.min.css'>
-<link rel='stylesheet' href='css/vendor.css'>
-
-<!--banner-->
-<link id="skin" rel="stylesheet" type="text/css" media="screen" href="css/divas_free_skin.css" />
-<!--banner-->
 <link rel='stylesheet' href='css/style.css'>
 
 
 </head>
-<body>
+<body class="is-loaded">
 <div class="site"> 
   <!-- .site-loader -->
   <div class="site-loader" style=" display:none;">
@@ -260,9 +255,41 @@
 <script src='js/html5shiv.min.js'></script><!--IE9以下版本浏览器对HTML5新增标签不识别-->
 <script src="js/jquery-1.11.3.min.js"></script> 
 <script src='js/bootstrap.min.js'></script> 
-<script src='js/totop.js'></script> 
-<script src='js/plugin.js'></script> 
-<script src='js/variable.js'></script> 
+<script src='js/totop.js'></script>
+<script>
+  $(window).scroll(function(){
+         // 获得div的高度
+
+         if($(window).scrollTop()> 0){
+            // 滚动到指定位置
+            $(".is-loaded").addClass("is-scroll");
+        } else {
+              $(".is-loaded").removeClass("is-scroll");
+        }
+    });
+
+	//navbar-toggle  		  $('.navbar-nav li').click(function(){		  });
+
+	  $('.navbar-nav li:eq(0)').click(function(){
+   $("html,body").animate({scrollTop:$("#home").offset().top},500);
+});
+	  $('.navbar-nav li:eq(1)').click(function(){
+   $("html,body").animate({scrollTop:$("#about").offset().top},500);
+});
+  $('.navbar-nav li:eq(2)').click(function(){
+   $("html,body").animate({scrollTop:$("#brief_1").offset().top},500);
+});
+ $('.navbar-nav li:eq(3)').click(function(){
+   $("html,body").animate({scrollTop:$("#pricing").offset().top},500);
+});
+ $('.navbar-nav li:eq(4)').click(function(){
+   $("html,body").animate({scrollTop:$("#contact").offset().top},500);
+});
+</script> 
+<!--
+<script src="js/plugin.js"></script>
+<script src="js/variable.js"></script>
+-->
 <script src='js/main.js'></script> 
 <script type="text/javascript">
     //创建和初始化地图函数：

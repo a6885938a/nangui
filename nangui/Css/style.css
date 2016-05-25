@@ -1,36 +1,4 @@
-﻿/*!
- * Template Name: Flat Tech - Flat Landing Page Template
- * Author: bonefishcode
- */
-/*
- * table of contents
- * --------------------------------------------------
- * import
- * helper
- * base
- * element
- * site loader
- * site header
- * site common
- * site background
- * home section
- * about section
- * brief section
- * contact section
- * site footer
- */
-/**
- * import
- * --------------------------------------------------
- */
-@import url("1f81f97097b1492485dbaffa5010cb88.css");
-/**
- * helper
- * --------------------------------------------------
- */
-/**
- * clearfix
- */
+﻿
 body {
 	font-family: "microsoft yahei", sans-serif
 }
@@ -5280,47 +5248,6 @@ form._default textarea {
  * site loader
  * --------------------------------------------------
  */
-.site-loader {
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	position: fixed;
-	z-index: 900;
-	background-color: #10cfbd;
-}
- @-webkit-keyframes spinner {
- 0% {
- -webkit-transform: rotate(0deg);
- transform: rotate(0deg);
-}
- 100% {
- -webkit-transform: rotate(360deg);
- transform: rotate(360deg);
-}
-}
- @-o-keyframes spinner {
- 0% {
- -o-transform: rotate(0deg);
- transform: rotate(0deg);
-}
- 100% {
- -o-transform: rotate(360deg);
- transform: rotate(360deg);
-}
-}
- @keyframes spinner {
- 0% {
- -webkit-transform: rotate(0deg);
- -o-transform: rotate(0deg);
- transform: rotate(0deg);
-}
- 100% {
- -webkit-transform: rotate(360deg);
- -o-transform: rotate(360deg);
- transform: rotate(360deg);
-}
-}
 /**
  * site header
  * --------------------------------------------------
