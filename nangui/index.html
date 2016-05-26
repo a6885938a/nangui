@@ -270,8 +270,9 @@
 
 	//navbar-toggle  		 
 	 $('.navbar-nav li').click(function(){
+		// $(".navbar-toggle").click();出现闪烁
 	 $('.navbar-collapse').removeClass("in");
-	 	 $('.navbar-toggle').addClass("collapsed").attr("aria-expanded","false");
+	 $('.navbar-toggle').addClass("collapsed").attr("aria-expanded","false");
 		 });
 
 	  $('.navbar-nav li:eq(0)').click(function(){
