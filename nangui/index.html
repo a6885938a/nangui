@@ -30,11 +30,11 @@
           <!-- .navbar-header -->
           <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#home">首页</a></li>
-              <li><a href="#about">优势产品</a></li>
-              <li><a href="#brief_1">走进南桂</a></li>
-              <li><a href="#pricing">合作伙伴</a></li>
-              <li><a href="#contact">联系我们</a></li>
+              <li class="home active"><a href="#home">首页</a></li>
+              <li class="about"><a href="#about">优势产品</a></li>
+              <li class="bri"><a href="#brief_1">走进南桂</a></li>
+              <li class="pri"><a href="#pricing">合作伙伴</a></li>
+              <li class="con"><a href="#contact">联系我们</a></li>
               <li class="audio-toggle"><a href="#"><i class="fa fa-volume-up"></i></a></li>
             </ul>
           </div>
@@ -273,7 +273,39 @@
 		  });
   });
 </script> 
-<script src='js/main.js'></script> 
+<script type="text/javascript">
+$(function(){
+	var home_top = $("#home").offset().top;
+	var about_top = $("#about").offset().top;
+	var bri_top = $("#brief_1").offset().top;
+	var pri_top = $("#pricing").offset().top;
+	var con_top = $("#contact").offset().top;
+	//alert(tops);
+	$(window).scroll(function(){
+		var scroH = $(this).scrollTop();
+		if(scroH>=con_top){
+			set_cur(".con");
+		}else if(scroH>=pri_top){
+			set_cur(".pri");
+		}else if(scroH>=bri_top){
+			set_cur(".bri");
+		}else if(scroH>=about_top){
+			set_cur(".about");
+		}else if(scroH>=home_top){
+			set_cur(".home");
+		}
+	});
+
+});
+
+function set_cur(n){
+	if($(".nav li").hasClass("active")){
+		$(".nav li").removeClass("active");
+	}
+	$(".nav li"+n).addClass("active");
+}
+</script>
+
 <script type="text/javascript">
     //创建和初始化地图函数：
     function initMap(){
