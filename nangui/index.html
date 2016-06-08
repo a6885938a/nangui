@@ -1,6 +1,4 @@
 ﻿<!DOCTYPE html>
-<!--[if IE 9 ]><html class="ie ie9 no-js" lang="en"><![endif]-->
-<!--[if gt IE 9 | !IE]><!-->
 <html lang="en">
 <!--<![endif]-->
 <head>
@@ -16,6 +14,7 @@
 <link rel='stylesheet' href='css/style.css'>
 <script src='http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js'></script><!--IE9以下版本浏览器对HTML5新增标签不识别-->
 
+<script src='js/helium.js'></script>
 </head>
 <body class="is-loaded">
 <div class="site">
@@ -30,11 +29,11 @@
           <!-- .navbar-header -->
           <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="home active"><a href="#home">首页</a></li>
-              <li class="about"><a href="#about">优势产品</a></li>
-              <li class="bri"><a href="#brief_1">走进南桂</a></li>
-              <li class="pri"><a href="#pricing">合作伙伴</a></li>
-              <li class="con"><a href="#contact">联系我们</a></li>
+              <li class="home active"><a>首页</a></li>
+              <li class="about"><a>优势产品</a></li>
+              <li class="bri"><a>走进南桂</a></li>
+              <li class="pri"><a>合作伙伴</a></li>
+              <li class="con"><a>联系我们</a></li>
               <li class="audio-toggle"><a href="#"><i class="fa fa-volume-up"></i></a></li>
             </ul>
           </div>
@@ -43,7 +42,6 @@
       </nav>
     </header>
     <!-- .site-header -->
-    
     <main class="site-main-1" ><!--change-->
       <div id="home" class="section block-primary position-r align-c-xs-max" >
         <div class="video_play" >
@@ -91,9 +89,7 @@
         </div>
       </div>
       <!-- #about --> 
-      
       <!-- #brief_1 -->
-      
       <div id="brief_1" class="section block-default align-c-xs-max" >
         <div class="container">
           <div class="row row-table">
@@ -120,7 +116,6 @@
         </div>
       </div>
       <!-- #brief_2 -->
-      
       <div id="pricing" class="section block-warning align-c">
         <div class="container">
           <div class="row">
@@ -226,86 +221,18 @@
 <div id="rocket-wrap-lit" class="visible-xs">
   <div id="rocket-lit"></div>
 </div>
+<script type="text/javascript">
+    window.addEventListener('load', function(){
+ 
+        helium.init();
+ 
+    }, false);
+</script>
 <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script> 
 <script src='http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js'></script> 
-<script src='js/totop.js'></script> 
-<script>
-  $(window).scroll(function(){
-         // 获得div的高度
-
-         if($(window).scrollTop()> 0){
-            // 滚动到指定位置
-            $(".is-loaded").addClass("is-scroll");
-        } else {
-              $(".is-loaded").removeClass("is-scroll");
-        }
-    });
-
-	//navbar-toggle  		 
-	 $('.navbar-nav li').click(function(){
-		// $(".navbar-toggle").click();出现闪烁
-	 $('.navbar-collapse').removeClass("in");
-	 $('.navbar-toggle').addClass("collapsed").attr("aria-expanded","false");
-		 });
-
-	  $('.navbar-nav li:eq(0)').click(function(){
-   $("html,body").animate({scrollTop:$("#home").offset().top},500);
-});
-	  $('.navbar-nav li:eq(1)').click(function(){
-   $("html,body").animate({scrollTop:$("#about").offset().top-100},500);
-});
-  $('.navbar-nav li:eq(2)').click(function(){
-   $("html,body").animate({scrollTop:$("#brief_1").offset().top-100},500);
-});
- $('.navbar-nav li:eq(3)').click(function(){
-   $("html,body").animate({scrollTop:$("#pricing").offset().top-100},500);
-});
- $('.navbar-nav li:eq(4)').click(function(){
-   $("html,body").animate({scrollTop:$("#contact").offset().top-100},500);
-});
-</script> 
 <script src="http://apps.bdimg.com/libs/jquery-lazyload/1.9.5/jquery.lazyload.js"></script> 
-<script type="text/javascript" charset="utf-8">
-  $(function() {
-      $("img.lazy").show().lazyload({
-		  effect: "fadeIn",
-          threshold :150
-		  });
-  });
-</script> 
-<script type="text/javascript">
-$(function(){
-	var home_top = $("#home").offset().top;
-	var about_top = $("#about").offset().top;
-	var bri_top = $("#brief_1").offset().top;
-	var pri_top = $("#pricing").offset().top;
-	var con_top = $("#contact").offset().top;
-	//alert(tops);
-	$(window).scroll(function(){
-		var scroH = $(this).scrollTop();
-		if(scroH>=con_top){
-			set_cur(".con");
-		}else if(scroH>=pri_top){
-			set_cur(".pri");
-		}else if(scroH>=bri_top){
-			set_cur(".bri");
-		}else if(scroH>=about_top){
-			set_cur(".about");
-		}else if(scroH>=home_top){
-			set_cur(".home");
-		}
-	});
-
-});
-
-function set_cur(n){
-	if($(".nav li").hasClass("active")){
-		$(".nav li").removeClass("active");
-	}
-	$(".nav li"+n).addClass("active");
-}
-</script>
-
+<script src='js/scrollReveal.min.js'></script> 
+<script src='js/nangui.js'></script> 
 <script type="text/javascript">
     //创建和初始化地图函数：
     function initMap(){
@@ -402,15 +329,8 @@ function set_cur(n){
     }
     
     initMap();//创建和初始化地图
-</script> 
-<script src='js/scrollReveal.min.js'></script> 
-<script type="text/javascript">
-      (function($) {
+</script>
 
-        'use strict';
 
-        window.scrollReveal = new scrollReveal({ reset: true, move: '50px' });
-      })();
-    </script>
 </body>
 </html>
