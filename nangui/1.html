@@ -1,0 +1,1834 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<script>
+	function isMobilePhone() {
+	
+		function getCookie(sName) {
+			var sCookies = document.cookie ;
+			if ("string" == typeof(sName)) {
+				var sRE = "(?:; )?"+sName+"=([^;]*);?" ;
+				var reRE = new RegExp(sRE) ;
+				if (reRE.test(sCookies)) {
+					return decodeURIComponent(RegExp["$1"]) ;
+				} else {
+					return null ;
+				}
+			} else {
+				return sCookies ;
+			}
+		}
+				
+		var pcPageTip = '您将要跳转到电脑版网页，会使用较多手机上网流量，是否继续？';
+		var cUrl = window.location.href;
+		var referrer = document.referrer;
+		var mIndex = '//m.jd.com/';
+		
+		var mFlag = window.location.hash, pcmFlag = getCookie('pcm');
+		
+		/*
+		if(mFlag == '#m'){
+			if (confirm(pcPageTip)) {
+				return;
+			}
+		}
+		*/
+		
+        var userAgent = navigator.userAgent;
+        if(userAgent){
+			userAgent = userAgent.toUpperCase();
+			if(userAgent.indexOf("PAD")>-1){
+                 return;
+            }
+			var mobilePhoneList = ["IOS","IPHONE","ANDROID","WINDOWS PHONE"];
+			for(var i=0,len=mobilePhoneList.length;i<len;i++){
+				if(userAgent.indexOf(mobilePhoneList[i])>-1){
+									
+											function isPcPage(url) {
+							var pcDomains = ['sale.jd.com', 'pinpaijie.jd.com', 'jrj.jd.com'];
+							for (var i = 0, len = pcDomains.length; i < len; i++) {
+								if (url.indexOf(pcDomains[i]) != -1) return true;
+							}
+							return false;
+						}
+						
+        				var mUrl = cUrl.replace(/sale\.jd\.com\/act/,'m.jd.com/sale/act');
+						
+						// no sale m & mc
+						if(isPcPage(mUrl) || mFlag == '#m' || pcmFlag == '1') {
+							if (confirm(pcPageTip)) {
+								return;
+							} else {
+								/*
+								if (referrer && referrer != '') {
+									if (referrer === cUrl) {
+										window.location.href = mIndex;
+										return;
+									} else {
+										window.location.href = referrer;
+										return;
+									}
+								} else {
+									window.location.href = mIndex;
+									return;
+								}
+								*/
+								window.location.href = mIndex;
+								return;
+							}
+						}
+						
+						// M page
+						if (mUrl.indexOf('m.jd.com') != -1) {
+							var tempUrl = cUrl.replace("//","");
+                            tempUrl = tempUrl.replace("http:","");
+                            tempUrl = tempUrl.replace("https:","");
+							var newmUrl = "//h5.m.jd.com/active/fastshop/index.html?url="+tempUrl;
+							window.location.href = newmUrl;
+							return;
+						}
+        							}
+             }
+         }
+     }
+	 
+	 
+			 isMobilePhone();
+	 </script>
+	    <!--JA统计-->
+	<script>var jdpts=new Object();jdpts._st=new Date().getTime();</script>
+    <meta content="京东IT数码返场期活动为您推荐当下最流行的品牌IT 1111 仅3天！,欢迎参加京东IT数码返场期" name="description">
+    <meta content="IT 1111 仅3天！,京东IT数码返场期,京东电脑、办公活动,京东" name="keywords">
+	<title>
+							IT数码返场期 - 京东电脑、办公专题活动-京东
+			</title>
+	<link rel="icon" href="//www.jd.com/favicon.ico" mce_href="//www.jd.com/favicon.ico" type="image/x-icon">
+	
+		
+	<link rel="stylesheet" type="text/css" href="//static.360buyimg.com/jshop/sale-p/view/20151221110035/css/??base.css?t=201605122327" />
+    <link type="text/css" rel="stylesheet"  href="//misc.360buyimg.com/jdf/1.0.0/unit/??ui-base/1.0.0/ui-base.css,shortcut/2.0.0/shortcut.css,global-header/1.0.0/global-header.css,myjd/2.0.0/myjd.css,nav/2.0.0/nav.css,shoppingcart/2.0.0/shoppingcart.css,global-footer/1.0.0/global-footer.css,service/1.0.0/service.css"/>
+	<link rel="stylesheet" type="text/css" href="//static.360buyimg.com/jshop/sale-p/view/20151221110035/css/??jdCssInit.css,css_cube_application_layout.css?t=201605122327"/>	
+	
+	<script src="//misc.360buyimg.com/jdf/lib/jquery-1.6.4.js?t=1606072119"></script>
+	<!--[if lte IE 7]><script type="text/javascript" src="//static.360buyimg.com/jshop/common/jquery/json2.js"></script><![endif]-->
+	<script type="text/javascript" src="//misc.360buyimg.com/??jdf/1.0.0/unit/base/1.0.0/base.js"></script>
+	<script type="text/javascript" src="//static.360buyimg.com/jshop/sale-p/view/stable/??seajs-combo.js?t=1606072119"></script>
+	
+    <style>
+		
+
+.single-place{position:absolute;bottom:0;left:0;}
+.jGoodsRecommend-161641 {clear:both;}
+.jGoodsRecommend-161641 .mt{}
+.jGoodsRecommend-161641 .mc{background:#333131; overflow:hidden;}
+.jGoodsRecommend-161641 .mb{display:none;}
+.jGoodsRecommend-161641 .mc ul{width:100%;}
+.jGoodsRecommend-161641 li{float:left; width:190px; margin:7px 0 0 10px; overflow:hidden; position:relative; zoom:1; display:inline;}
+.jGoodsRecommend-161641 .jItem{height:auto;}
+.jGoodsRecommend-161641 .jPic{text-align:center; background:#fff; _height:100%; position:relative; zoom:1;}
+.jGoodsRecommend-161641 .jPic img{margin:0 auto; display:block; vertical-align:top;}
+.jGoodsRecommend-161641 .jPic a{display:block; height:170px;}
+.jGoodsRecommend-161641 .jGoodsInfo{position:relative; zoom:1; padding:5px 10px 10px; background:#fff;}
+.jGoodsRecommend-161641 .jDesc{overflow:hidden; margin-bottom:5px; height:31px; line-height:1.3;}
+.jGoodsRecommend-161641 .jDesc a{display:block; color:#343434; font-size:12px; overflow:hidden;}
+.jGoodsRecommend-161641 .jDesc a:hover{text-decoration:underline;}
+.jGoodsRecommend-161641 .jDesc .jSlogan{color:#008700!important;}
+.jGoodsRecommend-161641 .jPrice{overflow:hidden;}
+.jGoodsRecommend-161641 .jdPrice{overflow:hidden; font-size:0; line-height:normal; white-space:nowrap;}
+.jGoodsRecommend-161641 .jdPrice .jText{font-size:12px; color:#666666;}
+.jGoodsRecommend-161641 .jdPrice .jRmb{font-size:18px; color:#ea1717;}
+.jGoodsRecommend-161641 .jdPrice .jdNum{font-size:24px; color:#ea1717;}
+.jGoodsRecommend-161641 .jdPrice .jdNumNo{font-size:14px;}
+.jGoodsRecommend-161641 .jSalePrice{overflow:hidden; font-size:0;}
+.jGoodsRecommend-161641 .jSalePrice span{float:left; display:inline; font-size:12px; color:#adacac;}
+.jGoodsRecommend-161641 .jSalePrice .jRmb{}
+.jGoodsRecommend-161641 .jSalePrice .jText{}
+.jGoodsRecommend-161641 .jSalePrice .jsNum{}
+.jGoodsRecommend-161641 .jSalePrice .jsNumNo{text-decoration:none;}
+.jGoodsRecommend-161641 .jBtnArea{clear:both; padding-top:5px;}
+.jGoodsRecommend-161641 .jBtnArea a{display:block; width:126px; height:31px; margin:0 auto; text-indent:-9999px; background:url(//img10.360buyimg.com/cms/jfs/t307/88/877480342/2238/484f01d3/5427bf41N070b52ba.gif);}
+.userdefined-153704 .j-module{zoom:1; overflow:hidden;}
+.container h4{background:#fff;height:20px;padding-right:0px;}
+.container .shrink{width:20px;height:20px;background:url("//img14.360buyimg.com/cms/g14/M00/04/1C/rBEhVlHdGEUIAAAAAAAGCRctXCUAAA9BAP_9KUAAAYh058.png");float:right;margin-right:5px;}
+.container .shrink{background-position: -24px 0;}
+.container .extend{background-position:0 0;}
+.container .tips{background-position:0 -24px;width:88px;}
+
+    </style>		
+	<!-- 支持所有活动在IPAD上正常显示 -->
+	<script type="text/javascript" >
+		if(/ipad/i.test(navigator.userAgent)){
+			if(!/safari/i.test(navigator.userAgent) || /jdapp/i.test(navigator.userAgent)){
+			 jQuery('head').append('<style>.d-pad{display:none;}</style');
+			}
+		}
+	</script>
+	
+	<!-- 京东主站相关 -->
+	<script type="text/javascript">window.pageConfig.compatible = true;</script>
+	<script type="text/javascript">
+		seajs.use('jdf/1.0.0/unit/globalInit/2.0.0/globalInit.js',function(globalInit){
+			globalInit();
+		});
+		//如果使用首页热搜词
+		seajs.use("jdf/1.0.0/unit/hotwords/1.0.0/hotwords",function(hotwords){
+			hotwords();
+		});
+	</script>
+	
+</head>
+<body> 
+
+	<input type="hidden"  id="JSHOP_CHANNEL_FLAG" value="jd"/>
+	<input type="hidden" value="212846" id="pageInstance_appId"/>
+	<input type="hidden" value="5666924" id="pageInstance_id"/>
+	<input id="layoutSortUrl" type="hidden" value="http://sale.jd.com/act/K4qS3vJuHaCisRZn.html" />
+	<input type="hidden"  id="moduleScript" value='<script type="text/javascript" moduleinit="module" src="//sale.jd.com/jm.htm?js=/script/module/goods-rec/GoodsRec.js,/script/module/user-define/UserDefine.js,/script/module/side-panel/side-panel.js&t=1606072119"></script>'/>
+	<input id="resourcePath" type="hidden" value="//static.360buyimg.com/jshop/sale-p/view/20151221110035/"/>
+    <input id="timestamp" type="hidden" value="201605122327"/>
+	<input id="testSidebar" type="hidden" value="test"/>
+	
+	<div class="d-pad">
+		<div id="shortcut-2014">
+	<div class="w">
+    	<ul class="fl">
+    		<li class="dorpdown" id="ttbar-mycity"></li>
+    	</ul>
+    	<ul class="fr">
+			<li class="fore1" id="ttbar-login">
+				<a target="_blank" href="javascript:login();" class="link-login">你好，请登录</a>  <a href="javascript:regist();" class="link-regist style-red">免费注册</a>
+			</li>
+			<li class="spacer"></li>
+			<li class="fore2">
+				<div class="dt">
+					<a target="_blank" href="//order.jd.com/center/list.action">我的订单</a>
+				</div>
+			</li>
+			<li class="spacer"></li>
+			<li class="fore3 dorpdown" id="ttbar-myjd">
+				<div class="dt cw-icon">
+					<i class="ci-right"><s>◇</s></i>
+					<a target="_blank" href="//home.jd.com/">我的京东</a>
+				</div>
+				<div class="dd dorpdown-layer"></div>
+			</li>
+			<li class="spacer"></li>
+			<li class="fore4">
+				<div class="dt">
+					<a target="_blank" href="//vip.jd.com/">京东会员</a>
+				</div>
+			</li>
+			<li class="spacer"></li>
+			<li class="fore5">
+				<div class="dt">
+					<a target="_blank" href="//b.jd.com/">企业采购</a>
+				</div>
+			</li>
+			<li class="spacer"></li>
+			<li class="fore6 dorpdown" id="ttbar-apps">
+				<div class="dt cw-icon">
+					<i class="ci-left"></i>
+					<i class="ci-right"><s>◇</s></i>
+					<a target="_blank" href="//app.jd.com/">手机京东</a>
+				</div>
+			</li>
+			<li class="spacer"></li>
+			<li class="fore7 dorpdown" id="ttbar-atte">
+				<div class="dt cw-icon">
+					<i class="ci-right"><s>◇</s></i>关注京东
+				</div>	
+			</li>
+			<li class="spacer"></li>
+			<li class="fore8 dorpdown" id="ttbar-serv">
+				<div class="dt cw-icon">
+					<i class="ci-right"><s>◇</s></i>客户服务
+				</div>
+				<div class="dd dorpdown-layer"></div>
+			</li>
+			<li class="spacer"></li>
+			<li class="fore9 dorpdown" id="ttbar-navs">
+				<div class="dt cw-icon">
+					<i class="ci-right"><s>◇</s></i>网站导航
+				</div>
+				<div class="dd dorpdown-layer"></div>
+			</li>
+    	</ul>
+		<span class="clr"></span>
+    </div>
+</div>
+<div id="o-header-2013"><div id="header-2013" style="display:none;"></div></div>
+		<div class="w">
+    <div id="logo-2014">
+    	<a href="//www.jd.com/" class="logo">京东</a>
+    </div>
+    <div id="search-2014" >
+		<ul id="shelper" class="hide"></ul>
+		<div class="form">
+			<input type="text" onkeydown="javascript:if(event.keyCode==13) search('key');" autocomplete="off" id="key" accesskey="s" class="text" />
+			<button onclick="search('key');return false;" class="button cw-icon"><i></i>搜索</button>
+		</div>
+    </div>
+    <div id="settleup-2014" class="dorpdown">
+		<div class="cw-icon">
+			<i class="ci-left"></i>
+			<i class="ci-right">></i>
+			<a target="_blank" href="//cart.jd.com/cart/cart.html">我的购物车</a>
+		</div>
+		<div class="dorpdown-layer">
+			<div class="spacer"></div>
+			<div id="settleup-content">
+				<span class="loading"></span>
+			</div>
+		</div>
+	</div>
+    <div id="hotwords-2014"></div>
+    <span class="clr"></span>
+</div>
+<div id="nav-2014">
+    <div class="w">
+        <div class="w-spacer"></div>
+		<div id="categorys-2014" class="dorpdown"  data-type="default">
+			<div class="dt">
+				<a target="_blank" href="//www.jd.com/allSort.aspx">全部商品分类</a>
+			</div>
+		</div>
+		<div id="navitems-2014">
+			<ul id="navitems-group1">
+				<li id="nav-fashion" class="fore1" >
+					<a target="_blank" href="//channel.jd.com/fashion.html">服装城</a>
+				</li>
+				<li id="nav-beauty" class="fore2" >
+					<a target="_blank" href="//channel.jd.com/beauty.html">美妆馆</a>
+				</li>
+				<li id="nav-chaoshi" class="fore3" >
+					<a target="_blank" href="//channel.jd.com/chaoshi.html">超市</a>
+				</li>
+				<li id="nav-jdww" class="fore4" >
+					<a target="_blank" href="//www.jd.hk/">全球购</a>
+				</li>
+			</ul>
+			<div class="spacer"></div>
+			<ul id="navitems-group2">
+				<li id="nav-red" class="fore1" >
+					<a target="_blank" href="//red.jd.com/">闪购</a>
+				</li>
+				<li id="nav-tuan" class="fore2" >
+					<a target="_blank" href="//tuan.jd.com/">团购</a>
+				</li>
+				<li id="nav-auction" class="fore3" >
+					<a target="_blank" href="//paimai.jd.com/">拍卖</a>
+				</li>
+				<li id="nav-jr" class="fore4" >
+					<a target="_blank" href="//jr.jd.com/">金融</a>
+				</li>				
+			</ul>
+		</div>
+        <div id="treasure"></div>
+        <span class="clr"></span>
+    </div>
+</div>
+	</div>
+	
+	<div class="layoutcontainer" isfixed="0" style="margin:0 auto;width:px; background:#ffe500 ">
+			
+	
+	
+      <div class="d-layout-area " >
+     <div class='d-layout' id="5542439"   >
+	<div class='d-layout-one w990 '>
+	 
+		 	</div>
+     </div>
+</div>
+
+	
+      <div class="d-layout-area   "  >
+     <div class='d-layout' id="5667777"  style="width:100%;"   >
+	<div class='d-layout-one  '>
+	 
+
+
+		<div class=' userdefined-153704' instanceId='5667778'  style="margin-bottom: 10px;" module-name="UserDefine" >
+
+	
+     <div class="mc" style=";min-height:0px;">
+		 <div class="j-module" module-function="autoCenter,rid" module-param="{}">
+	<div class="userDefinedArea" style="width:1920px;">
+		<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  original="//img13.360buyimg.com/cms/jfs/t487/301/394682418/141145/ebd479f1/54646b4bN53b90424.jpg" width="1920" height="590" alt="" />
+	</div>
+</div>
+     </div>
+
+	 </div>
+
+		 	</div>
+     </div>
+</div>
+
+<div class="d-layout-area   " >
+     <div class="d-layout" name="左右等分（490x490)"  id="5679438" area="body" layout_name="insertLayout" >
+	  <div class="d-layout-two-left w490 ">
+		 
+
+
+		<div class=' userdefined-153704' instanceId='5679439'  style="margin-bottom: 10px;" module-name="UserDefine" >
+
+	
+     <div class="mc" style=";min-height:0px;">
+		 <div class="j-module" module-function="autoCenter,rid" module-param="{}">
+	<div class="userDefinedArea" style="width:490px;">
+		<a href="//sale.jd.com/act/XyjAuYtUpfRK1m.html" target="_blank" clstag="sale|keycount|5679439|1"><img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  original="//img13.360buyimg.com/cms/jfs/t673/122/382830046/16780/62081b28/54646a9bN68a55ed0.png" width="490" height="86" alt="" id="zhengji" /></a>
+	</div>
+</div>
+     </div>
+
+	 </div>
+
+		 	  </div>
+	  <div class="d-layout-two-right w490 ">	
+		
+
+
+		<div class=' userdefined-153704' instanceId='5679446'  style="margin-bottom: 10px;" module-name="UserDefine" >
+
+	
+     <div class="mc" style=";min-height:0px;">
+		 <div class="j-module" module-function="autoCenter,rid" module-param="{}">
+	<div class="userDefinedArea" style="width:490px;">
+		<a href="//sale.jd.com/act/NLYjG104PQ6Zi.html" target="_blank" clstag="sale|keycount|5679446|1"><img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  original="//img14.360buyimg.com/cms/jfs/t499/233/408252260/17091/e3d4aeab/54646aa3N74b5212c.png" width="490" height="86" alt="" id="shuma" /></a>
+	</div>
+</div>
+     </div>
+
+	 </div>
+
+		 	  </div>
+     </div>
+</div>
+
+<div class="d-layout-area   " >
+     <div class="d-layout" name="左右等分（490x490)"  id="5675689" area="body" layout_name="insertLayout" >
+	  <div class="d-layout-two-left w490 ">
+		 
+
+
+		<div class=' jGoodsRecommend-161641' instanceId='5675708'  style="margin-bottom: 10px;" module-name="GoodsRec" >
+
+	
+     <div class="mc" style=";min-height:0px;">
+		 <div class="j-module" module-function="autoFill" module-param="{autoFillNode:'li', xInner:10, yInner:7, minWidth:' ', xOuter:0, yOuter:' ', isEqual:false, length:''}" >
+    <ul>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/761145.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="Apple iPad mini MD531CH/A 7.9英寸平板电脑 （16G WLAN 机型）银色" original="//img13.360buyimg.com/n7/jfs/t2569/239/25868805/120723/a3782dfb/56334aeeN61c4f398.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="Apple iPad mini MD531CH/A 7.9英寸平板电脑 （16G WLAN 机型）银色" class="jDesc">
+						<a target="_blank" href="//item.jd.com/761145.html">Apple iPad mini MD531CH/A 7.9英寸平板电脑 （16G WLAN 机型）银色</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='761145' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=761145&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/987852.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="ThinkPad E431(6277ALC) 14英寸笔记本电脑（i3-3110 4G 500G  1G独显 蓝牙摄像头 WIN8 ）" original="//img12.360buyimg.com/n7/g15/M00/13/1E/rBEhWFJ4sNUIAAAAAAHJY7c4pHkAAFBugBwkz0AAcl7615.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="ThinkPad E431(6277ALC) 14英寸笔记本电脑（i3-3110 4G 500G  1G独显 蓝牙摄像头 WIN8 ）" class="jDesc">
+						<a target="_blank" href="//item.jd.com/987852.html">ThinkPad E431(6277ALC) 14英寸笔记本电脑（i3-3110 4G 500G  1G独显 蓝牙摄像头 WIN8 ）</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='987852' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=987852&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/1140357.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="联想（Lenovo） G510AT 15.6英寸笔记本电脑（i5-4210M 4G 500G 2G独显 摄像头 DVD刻录 Win8）黑色" original="//img12.360buyimg.com/n7/jfs/t520/277/363310206/94004/df3a1698/54605989Ncebbcb88.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="联想（Lenovo） G510AT 15.6英寸笔记本电脑（i5-4210M 4G 500G 2G独显 摄像头 DVD刻录 Win8）黑色" class="jDesc">
+						<a target="_blank" href="//item.jd.com/1140357.html">联想（Lenovo） G510AT 15.6英寸笔记本电脑（i5-4210M 4G 500G 2G独显 摄像头 DVD刻录 Win8）黑色</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='1140357' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=1140357&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/1114057.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="华为MediaPad 10Link+平板电脑(10.1''1280x800 金属一体化机身 四核1.6GHz 6600mAh大电池 Wifi版 香槟色）" original="//img11.360buyimg.com/n7/g16/M00/0A/10/rBEbRVN5qFkIAAAAAAGkzKtZ7w0AACC8gAJ5_EAAaTk971.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="华为MediaPad 10Link+平板电脑(10.1''1280x800 金属一体化机身 四核1.6GHz 6600mAh大电池 Wifi版 香槟色）" class="jDesc">
+						<a target="_blank" href="//item.jd.com/1114057.html">华为MediaPad 10Link+平板电脑(10.1''1280x800 金属一体化机身 四核1.6GHz 6600mAh大电池 Wifi版 香槟色）</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='1114057' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=1114057&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/1144051.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="联想（Lenovo） IdeaCentre C340 20英寸一体电脑 （i3-3240T 4G内存 500G硬盘 DVD刻录 WIFI WIN8）白色" original="//img10.360buyimg.com/n7/jfs/t1264/20/1102571755/113117/f5c48d63/55754ca1N79356244.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="联想（Lenovo） IdeaCentre C340 20英寸一体电脑 （i3-3240T 4G内存 500G硬盘 DVD刻录 WIFI WIN8）白色" class="jDesc">
+						<a target="_blank" href="//item.jd.com/1144051.html">联想（Lenovo） IdeaCentre C340 20英寸一体电脑 （i3-3240T 4G内存 500G硬盘 DVD刻录 WIFI WIN8）白色</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='1144051' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=1144051&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/1146336.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="宏碁（acer） V3-572G 15.6英寸超薄本 （i5-4210U 4G 500G GeForce 840M 2G独显 win8.1 料号59TB）银色" original="//img14.360buyimg.com/n7/jfs/t1861/195/1517859627/247991/86db34d5/56c13f76Nbf7296aa.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="宏碁（acer） V3-572G 15.6英寸超薄本 （i5-4210U 4G 500G GeForce 840M 2G独显 win8.1 料号59TB）银色" class="jDesc">
+						<a target="_blank" href="//item.jd.com/1146336.html">宏碁（acer） V3-572G 15.6英寸超薄本 （i5-4210U 4G 500G GeForce 840M 2G独显 win8.1 料号59TB）银色</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='1146336' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=1146336&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+            </ul>
+</div>
+     </div>
+
+	 </div>
+
+		 	  </div>
+	  <div class="d-layout-two-right w490 ">	
+		
+
+
+		<div class=' jGoodsRecommend-161641' instanceId='5678858'  style="margin-bottom: 10px;" module-name="GoodsRec" >
+
+	
+     <div class="mc" style=";min-height:0px;">
+		 <div class="j-module" module-function="autoFill" module-param="{autoFillNode:'li', xInner:10, yInner:7, minWidth:' ', xOuter:0, yOuter:' ', isEqual:false, length:''}" >
+    <ul>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/1262192.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="乌龟海岸（Turtle Beach）EAR FORCE M3 便捷通话 身临其境 高品质游戏耳机 黑" original="//img14.360buyimg.com/n7/jfs/t1159/136/112317947/71378/46372e4b/54fffc41N63be196a.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="乌龟海岸（Turtle Beach）EAR FORCE M3 便捷通话 身临其境 高品质游戏耳机 黑" class="jDesc">
+						<a target="_blank" href="//item.jd.com/1262192.html">乌龟海岸（Turtle Beach）EAR FORCE M3 便捷通话 身临其境 高品质游戏耳机 黑</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='1262192' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=1262192&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/679926.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="爱科技（AKG） K121S 头戴式录音室专业监听耳机" original="//img13.360buyimg.com/n7/g5/M02/14/1E/rBEIDFAGaxIIAAAAAAFIIzf0NgsAAEGGwLUiDcAAUg7214.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="爱科技（AKG） K121S 头戴式录音室专业监听耳机" class="jDesc">
+						<a target="_blank" href="//item.jd.com/679926.html">爱科技（AKG） K121S 头戴式录音室专业监听耳机</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='679926' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=679926&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/1110783.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="索尼（SONY） DSC-W800 数码相机 银色（2010万像素 5倍光学变焦 2.7英寸屏 26mm广角）" original="//img11.360buyimg.com/n7/g13/M07/08/0C/rBEhUlNXX8YIAAAAAAHrBrk2TWIAAMWcAIqWyQAAese701.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="索尼（SONY） DSC-W800 数码相机 银色（2010万像素 5倍光学变焦 2.7英寸屏 26mm广角）" class="jDesc">
+						<a target="_blank" href="//item.jd.com/1110783.html">索尼（SONY） DSC-W800 数码相机 银色（2010万像素 5倍光学变焦 2.7英寸屏 26mm广角）</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='1110783' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=1110783&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/750786.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="奥林巴斯（OLYMPUS） E-PL5 微型单电套机 （M.ZUIKO DIGITAL 14-42mm f/3.5-5.6 II R 镜头）（赠8G卡）银色" original="//img13.360buyimg.com/n7/g8/M03/0D/07/rBEHZ1CQyTkIAAAAAAGtw8f4QzcAAClQgF0ZpcAAa3b200.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="奥林巴斯（OLYMPUS） E-PL5 微型单电套机 （M.ZUIKO DIGITAL 14-42mm f/3.5-5.6 II R 镜头）（赠8G卡）银色" class="jDesc">
+						<a target="_blank" href="//item.jd.com/750786.html">奥林巴斯（OLYMPUS） E-PL5 微型单电套机 （M.ZUIKO DIGITAL 14-42mm f/3.5-5.6 II R 镜头）（赠8G卡）银色</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='750786' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=750786&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/1197808.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="声德（Sounder）蜂巢2C 蓝牙音响 HIFI级蓝牙音箱 便携式户外无线蓝牙4.0音响 蓝色" original="//img10.360buyimg.com/n7/jfs/t1927/8/2157020822/196303/8432334e/56a5991dN0285e32e.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="声德（Sounder）蜂巢2C 蓝牙音响 HIFI级蓝牙音箱 便携式户外无线蓝牙4.0音响 蓝色" class="jDesc">
+						<a target="_blank" href="//item.jd.com/1197808.html">声德（Sounder）蜂巢2C 蓝牙音响 HIFI级蓝牙音箱 便携式户外无线蓝牙4.0音响 蓝色</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='1197808' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=1197808&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/917367.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="爱国者（aigo） R5511 录音笔专业 微型 高清远距降噪 MP3播放器 1088H 4G 灰色" original="//img11.360buyimg.com/n7/jfs/t2389/189/347608678/54370/f7495948/5602834dN08639529.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="爱国者（aigo） R5511 录音笔专业 微型 高清远距降噪 MP3播放器 1088H 4G 灰色" class="jDesc">
+						<a target="_blank" href="//item.jd.com/917367.html">爱国者（aigo） R5511 录音笔专业 微型 高清远距降噪 MP3播放器 1088H 4G 灰色</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='917367' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=917367&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+            </ul>
+</div>
+     </div>
+
+	 </div>
+
+		 	  </div>
+     </div>
+</div>
+
+<div class="d-layout-area   " >
+     <div class="d-layout" name="左右等分（490x490)"  id="5679452" area="body" layout_name="insertLayout" >
+	  <div class="d-layout-two-left w490 ">
+		 
+
+
+		<div class=' userdefined-153704' instanceId='5679453'  style="margin-bottom: 10px;" module-name="UserDefine" >
+
+	
+     <div class="mc" style=";min-height:0px;">
+		 <div class="j-module" module-function="autoCenter,rid" module-param="{}">
+	<div class="userDefinedArea" style="width:490px;">
+		<a href="//sale.jd.com/act/ZgP1Dd0cEuh3GvQy.html" target="_blank" clstag="sale|keycount|5679453|1"><img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  original="//img13.360buyimg.com/cms/jfs/t634/69/381841744/16006/3e4506a4/54646ab0N678b53b5.png" width="490" height="86" alt="" id="diy" /></a>
+	</div>
+</div>
+     </div>
+
+	 </div>
+
+		 	  </div>
+	  <div class="d-layout-two-right w490 ">	
+		
+
+
+		<div class=' userdefined-153704' instanceId='5679459'  style="margin-bottom: 10px;" module-name="UserDefine" >
+
+	
+     <div class="mc" style=";min-height:0px;">
+		 <div class="j-module" module-function="autoCenter,rid" module-param="{}">
+	<div class="userDefinedArea" style="width:490px;">
+		<a href="//sale.jd.com/act/c2xFHAC3YZ1mb4G.html" target="_blank" clstag="sale|keycount|5679459|1"><img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  original="//img10.360buyimg.com/cms/jfs/t490/341/387372723/19553/454ae882/54646b8cN8531507e.png" width="490" height="86" alt="" id="zhineng" /></a>
+	</div>
+</div>
+     </div>
+
+	 </div>
+
+		 	  </div>
+     </div>
+</div>
+
+<div class="d-layout-area   " >
+     <div class="d-layout" name="左右等分（490x490)"  id="5679462" area="body" layout_name="insertLayout" >
+	  <div class="d-layout-two-left w490 ">
+		 
+
+
+		<div class=' jGoodsRecommend-161641' instanceId='5679466'  style="margin-bottom: 10px;" module-name="GoodsRec" >
+
+	
+     <div class="mc" style=";min-height:0px;">
+		 <div class="j-module" module-function="autoFill" module-param="{autoFillNode:'li', xInner:10, yInner:7, minWidth:' ', xOuter:0, yOuter:' ', isEqual:false, length:''}" >
+    <ul>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/251340.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="安钛克（Antec）额定450W VP 450P 电源（主动式PFC/12CM静音风扇/电脑电源/双显卡接头/台式机电源）" original="//img13.360buyimg.com/n7/jfs/t2329/244/1397018837/482469/7ec8ff93/5656d989N486b09b7.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="安钛克（Antec）额定450W VP 450P 电源（主动式PFC/12CM静音风扇/电脑电源/双显卡接头/台式机电源）" class="jDesc">
+						<a target="_blank" href="//item.jd.com/251340.html">安钛克（Antec）额定450W VP 450P 电源（主动式PFC/12CM静音风扇/电脑电源/双显卡接头/台式机电源）</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='251340' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=251340&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/1125074.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="英特尔（Intel） 酷睿i3-4150 22纳米 Haswell全新架构盒装CPU处理器 （LGA1150/3.5GHz/3M三级缓存）" original="//img10.360buyimg.com/n7/g16/M00/06/13/rBEbRlN0liUIAAAAAAL-MsMK6rkAABSgABYRQIAAv5K776.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="英特尔（Intel） 酷睿i3-4150 22纳米 Haswell全新架构盒装CPU处理器 （LGA1150/3.5GHz/3M三级缓存）" class="jDesc">
+						<a target="_blank" href="//item.jd.com/1125074.html">英特尔（Intel） 酷睿i3-4150 22纳米 Haswell全新架构盒装CPU处理器 （LGA1150/3.5GHz/3M三级缓存）</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='1125074' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=1125074&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/493442.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="戴尔（DELL） U2412M 24英寸16:10屏幕比例旋转升降IPS屏显示器" original="//img13.360buyimg.com/n7/jfs/t2302/290/1779244712/319180/d4c22074/56dd035eNd29f5283.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="戴尔（DELL） U2412M 24英寸16:10屏幕比例旋转升降IPS屏显示器" class="jDesc">
+						<a target="_blank" href="//item.jd.com/493442.html">戴尔（DELL） U2412M 24英寸16:10屏幕比例旋转升降IPS屏显示器</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='493442' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=493442&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/899322.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="技嘉（GIGABYTE）B85M-D3H主板 (Intel B85/LGA 1150)" original="//img14.360buyimg.com/n7/jfs/t652/111/1145249771/332878/e912799f/54b60ec9N10be6970.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="技嘉（GIGABYTE）B85M-D3H主板 (Intel B85/LGA 1150)" class="jDesc">
+						<a target="_blank" href="//item.jd.com/899322.html">技嘉（GIGABYTE）B85M-D3H主板 (Intel B85/LGA 1150)</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='899322' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=899322&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/1053475182.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="极途（Gimit）i5 6500/8G/GTX960 4G/游戏台式电脑主机/DIY组装机" original="//img12.360buyimg.com/n7/jfs/t2167/95/2634310815/167704/9fcaa9b0/56e25e0dNada19c40.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="极途（Gimit）i5 6500/8G/GTX960 4G/游戏台式电脑主机/DIY组装机" class="jDesc">
+						<a target="_blank" href="//item.jd.com/1053475182.html">极途（Gimit）i5 6500/8G/GTX960 4G/游戏台式电脑主机/DIY组装机</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='1053475182' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=1053475182&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/1263753.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="雷霆世纪(RAYTINE) AEGIS 5 i5-4690K/Z97/GTX970/1T+120G SSD 游戏UPC" original="//img14.360buyimg.com/n7/jfs/t2824/234/1069924158/164522/91b82bfb/5732f12eN12e9d2f6.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="雷霆世纪(RAYTINE) AEGIS 5 i5-4690K/Z97/GTX970/1T+120G SSD 游戏UPC" class="jDesc">
+						<a target="_blank" href="//item.jd.com/1263753.html">雷霆世纪(RAYTINE) AEGIS 5 i5-4690K/Z97/GTX970/1T+120G SSD 游戏UPC</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='1263753' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=1263753&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+            </ul>
+</div>
+     </div>
+
+	 </div>
+
+		 	  </div>
+	  <div class="d-layout-two-right w490 ">	
+		
+
+
+		<div class=' jGoodsRecommend-161641' instanceId='5679473'  style="margin-bottom: 10px;" module-name="GoodsRec" >
+
+	
+     <div class="mc" style=";min-height:0px;">
+		 <div class="j-module" module-function="autoFill" module-param="{autoFillNode:'li', xInner:10, yInner:7, minWidth:' ', xOuter:0, yOuter:' ', isEqual:false, length:''}" >
+    <ul>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/836677.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="TP-LINK TL-WR842N 300M智能家用wifi无线路由器" original="//img12.360buyimg.com/n7/g14/M01/02/13/rBEhVlHJPKAIAAAAAACTNPQCJ3gAAAgggN_PiEAAJNM646.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="TP-LINK TL-WR842N 300M智能家用wifi无线路由器" class="jDesc">
+						<a target="_blank" href="//item.jd.com/836677.html">TP-LINK TL-WR842N 300M智能家用wifi无线路由器</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='836677' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=836677&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/430479.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="金士顿（Kingston）读速48MB/s 32GB Class10 TF(Micro SD)存储卡" original="//img14.360buyimg.com/n7/jfs/t697/313/379195541/72913/1c87d697/54aa2b55Nc6a01035.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="金士顿（Kingston）读速48MB/s 32GB Class10 TF(Micro SD)存储卡" class="jDesc">
+						<a target="_blank" href="//item.jd.com/430479.html">金士顿（Kingston）读速48MB/s 32GB Class10 TF(Micro SD)存储卡</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='430479' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=430479&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/1085466.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="海美迪 芒果嗨Q H7二代 真4K超高清H.265硬解 高清网络电视机顶盒子 智能安卓播放器" original="//img11.360buyimg.com/n7/jfs/t478/96/300922360/67018/3d0dc151/54744687N59faf139.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="海美迪 芒果嗨Q H7二代 真4K超高清H.265硬解 高清网络电视机顶盒子 智能安卓播放器" class="jDesc">
+						<a target="_blank" href="//item.jd.com/1085466.html">海美迪 芒果嗨Q H7二代 真4K超高清H.265硬解 高清网络电视机顶盒子 智能安卓播放器</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='1085466' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=1085466&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/1141924.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="Fitbit Flex 时尚智能乐活手环 无线运动睡眠蓝牙腕带典雅黑" original="//img12.360buyimg.com/n7/jfs/t529/171/801191168/62395/746a29e/548938e1N0c52bb65.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="Fitbit Flex 时尚智能乐活手环 无线运动睡眠蓝牙腕带典雅黑" class="jDesc">
+						<a target="_blank" href="//item.jd.com/1141924.html">Fitbit Flex 时尚智能乐活手环 无线运动睡眠蓝牙腕带典雅黑</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='1141924' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=1141924&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/1208054.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="云麦好轻 智能体脂秤  蓝牙APP控制 微联智能 体重秤家用秤电子称健康秤脂肪秤 居家白  京东微联App控制 " original="//img14.360buyimg.com/n7/jfs/t1537/360/921444552/61789/ecefe0d3/55b06482N10648ae2.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="云麦好轻 智能体脂秤  蓝牙APP控制 微联智能 体重秤家用秤电子称健康秤脂肪秤 居家白  京东微联App控制 " class="jDesc">
+						<a target="_blank" href="//item.jd.com/1208054.html">云麦好轻 智能体脂秤  蓝牙APP控制 微联智能 体重秤家用秤电子称健康秤脂肪秤 居家白  京东微联App控制 </a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='1208054' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=1208054&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/811629.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="迅捷（FAST）FWR310 300M家用wifi无线路由器" original="//img13.360buyimg.com/n7/jfs/t2578/346/334774146/27474/a2fb35ab/564582beN4534d8df.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="迅捷（FAST）FWR310 300M家用wifi无线路由器" class="jDesc">
+						<a target="_blank" href="//item.jd.com/811629.html">迅捷（FAST）FWR310 300M家用wifi无线路由器</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='811629' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=811629&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+            </ul>
+</div>
+     </div>
+
+	 </div>
+
+		 	  </div>
+     </div>
+</div>
+
+<div class="d-layout-area   " >
+     <div class="d-layout" name="左右等分（490x490)"  id="5679476" area="body" layout_name="insertLayout" >
+	  <div class="d-layout-two-left w490 ">
+		 
+
+
+		<div class=' userdefined-153704' instanceId='5679477'  style="margin-bottom: 10px;" module-name="UserDefine" >
+
+	
+     <div class="mc" style=";min-height:0px;">
+		 <div class="j-module" module-function="autoCenter,rid" module-param="{}">
+	<div class="userDefinedArea" style="width:490px;">
+		<a href="//sale.jd.com/act/TvUzsJ87df.html" target="_blank" clstag="sale|keycount|5679477|1"><img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  original="//img12.360buyimg.com/cms/jfs/t451/69/406670422/16415/79bee22c/546469f3Nb374a918.png" width="490" height="86" alt="" id="waishe" /></a>
+	</div>
+</div>
+     </div>
+
+	 </div>
+
+		 	  </div>
+	  <div class="d-layout-two-right w490 ">	
+		
+
+
+		<div class=' userdefined-153704' instanceId='5681170'  style="margin-bottom: 10px;" module-name="UserDefine" >
+
+	
+     <div class="mc" style=";min-height:0px;">
+		 <div class="j-module" module-function="autoCenter,rid" module-param="{}">
+	<div class="userDefinedArea" style="width:490px;">
+		<a href="//sale.jd.com/act/5DzRuMLCG8a6VI.html" target="_blank" clstag="sale|keycount|5681170|1"><img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  original="//img13.360buyimg.com/cms/jfs/t583/111/397912768/14755/42dac998/54646932Nffafc9a1.png" width="490" height="86" alt="" id="bangong" /></a>
+	</div>
+</div>
+     </div>
+
+	 </div>
+
+		 	  </div>
+     </div>
+</div>
+
+<div class="d-layout-area   " >
+     <div class="d-layout" name="左右等分（490x490)"  id="5681171" area="body" layout_name="insertLayout" >
+	  <div class="d-layout-two-left w490 ">
+		 
+
+
+		<div class=' jGoodsRecommend-161641' instanceId='5681173'  style="margin-bottom: 10px;" module-name="GoodsRec" >
+
+	
+     <div class="mc" style=";min-height:0px;">
+		 <div class="j-module" module-function="autoFill" module-param="{autoFillNode:'li', xInner:10, yInner:7, minWidth:' ', xOuter:0, yOuter:' ', isEqual:false, length:''}" >
+    <ul>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/1243907.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="Tt（Tt eSPORTS 斗龙）拓荒者G-Unit 120键 全背光 樱桃机械轴【黑轴】机械键盘" original="//img11.360buyimg.com/n7/jfs/t292/325/1526258580/86352/362799e6/543ce2f1N5edcd1bf.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="Tt（Tt eSPORTS 斗龙）拓荒者G-Unit 120键 全背光 樱桃机械轴【黑轴】机械键盘" class="jDesc">
+						<a target="_blank" href="//item.jd.com/1243907.html">Tt（Tt eSPORTS 斗龙）拓荒者G-Unit 120键 全背光 樱桃机械轴【黑轴】机械键盘</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='1243907' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=1243907&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/981261.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="达尔优（dare-u） G60 牧马人游戏鼠标 四色呼吸灯变换" original="//img14.360buyimg.com/n7/jfs/t2476/198/373137422/131408/adf8d89d/5603cd30N8cafb3ca.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="达尔优（dare-u） G60 牧马人游戏鼠标 四色呼吸灯变换" class="jDesc">
+						<a target="_blank" href="//item.jd.com/981261.html">达尔优（dare-u） G60 牧马人游戏鼠标 四色呼吸灯变换</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='981261' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=981261&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/1000467.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="希捷（Seagate） Backup Plus睿品（升级版） 1T 2.5英寸 USB3.0移动硬盘 皓月银(STDR1000301)    " original="//img10.360buyimg.com/n7/jfs/t2065/309/2057613683/56923/2c38cb6a/5698c3d1N9179f4b5.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="希捷（Seagate） Backup Plus睿品（升级版） 1T 2.5英寸 USB3.0移动硬盘 皓月银(STDR1000301)    " class="jDesc">
+						<a target="_blank" href="//item.jd.com/1000467.html">希捷（Seagate） Backup Plus睿品（升级版） 1T 2.5英寸 USB3.0移动硬盘 皓月银(STDR1000301)    </a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='1000467' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=1000467&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/1085495.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="埃普（UP） LP-6 床头手机平板支架基本款（白色）适用 iPad mini小米平板iPhone6 plus等(不支持iPad air)" original="//img14.360buyimg.com/n7/jfs/t148/2/845352333/26376/67ca0647/539a91e3N3c72437d.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="埃普（UP） LP-6 床头手机平板支架基本款（白色）适用 iPad mini小米平板iPhone6 plus等(不支持iPad air)" class="jDesc">
+						<a target="_blank" href="//item.jd.com/1085495.html">埃普（UP） LP-6 床头手机平板支架基本款（白色）适用 iPad mini小米平板iPhone6 plus等(不支持iPad air)</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='1085495' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=1085495&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/1029850.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="锐明 LA210501 HDMI转VGA线 高清口转VGA接头 转接器" original="//img14.360buyimg.com/n7/jfs/t2779/161/522553200/71262/870a3c2d/57172e11N285fa4ae.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="锐明 LA210501 HDMI转VGA线 高清口转VGA接头 转接器" class="jDesc">
+						<a target="_blank" href="//item.jd.com/1029850.html">锐明 LA210501 HDMI转VGA线 高清口转VGA接头 转接器</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='1029850' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=1029850&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/869975.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="酷冷至尊（CoolerMaster）烈焰枪 竞技版 红轴 游戏机械键盘 黑色版" original="//img12.360buyimg.com/n7/jfs/t2545/61/519450181/203668/4fe04784/565424e4Nd1a4a57d.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="酷冷至尊（CoolerMaster）烈焰枪 竞技版 红轴 游戏机械键盘 黑色版" class="jDesc">
+						<a target="_blank" href="//item.jd.com/869975.html">酷冷至尊（CoolerMaster）烈焰枪 竞技版 红轴 游戏机械键盘 黑色版</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='869975' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=869975&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+            </ul>
+</div>
+     </div>
+
+	 </div>
+
+		 	  </div>
+	  <div class="d-layout-two-right w490 ">	
+		
+
+
+		<div class=' jGoodsRecommend-161641' instanceId='5681178'  style="margin-bottom: 10px;" module-name="GoodsRec" >
+
+	
+     <div class="mc" style=";min-height:0px;">
+		 <div class="j-module" module-function="autoFill" module-param="{autoFillNode:'li', xInner:10, yInner:7, minWidth:' ', xOuter:0, yOuter:' ', isEqual:false, length:''}" >
+    <ul>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/889488.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="天章(TANGO) 新绿天章70克A4复印纸 500张/包 5包/箱" original="//img12.360buyimg.com/n7/jfs/t217/203/431542420/111796/d47a2d5b/53eb4e4eNe519ad57.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="天章(TANGO) 新绿天章70克A4复印纸 500张/包 5包/箱" class="jDesc">
+						<a target="_blank" href="//item.jd.com/889488.html">天章(TANGO) 新绿天章70克A4复印纸 500张/包 5包/箱</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='889488' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=889488&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/536830.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="惠普（HP） HP Laserjet PRO P1108激光打印机" original="//img12.360buyimg.com/n7/jfs/t343/151/1409928138/70551/cea8de91/5438fecaNc47b7f90.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="惠普（HP） HP Laserjet PRO P1108激光打印机" class="jDesc">
+						<a target="_blank" href="//item.jd.com/536830.html">惠普（HP） HP Laserjet PRO P1108激光打印机</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='536830' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=536830&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/385568.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="得力(deli)3908 银行专用全智能语音报警点钞机验钞机" original="//img12.360buyimg.com/n7/jfs/t1996/223/2748587110/244698/89e78d58/56e7ce6dN7990668b.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="得力(deli)3908 银行专用全智能语音报警点钞机验钞机" class="jDesc">
+						<a target="_blank" href="//item.jd.com/385568.html">得力(deli)3908 银行专用全智能语音报警点钞机验钞机</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='385568' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=385568&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/1066672.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="佳能（Canon） iP2880 彩色喷墨打印机" original="//img13.360buyimg.com/n7/g14/M05/11/07/rBEhVVMEaQcIAAAAAACVvkYSlZ4AAI2ywJ9W1wAAJXW728.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="佳能（Canon） iP2880 彩色喷墨打印机" class="jDesc">
+						<a target="_blank" href="//item.jd.com/1066672.html">佳能（Canon） iP2880 彩色喷墨打印机</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='1066672' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=1066672&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/112840.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="科密(comet)C-838经典米粒级办公碎纸机(德国4级保密/高速静音)" original="//img10.360buyimg.com/n7/jfs/t2755/162/1902817394/105746/6d1989a1/574e65a3N9a178cb4.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="科密(comet)C-838经典米粒级办公碎纸机(德国4级保密/高速静音)" class="jDesc">
+						<a target="_blank" href="//item.jd.com/112840.html">科密(comet)C-838经典米粒级办公碎纸机(德国4级保密/高速静音)</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='112840' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=112840&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+        		<li>
+			<div class="jItem">
+				<div class="jPic">
+					<a target="_blank" href="//item.jd.com/1000294.html">
+						<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  width="170" height="170" alt="明基（BenQ）MS3081+ 商务办公投影机" original="//img10.360buyimg.com/n7/g13/M01/13/14/rBEhU1JvZUUIAAAAAAFCRF80C_4AAEu1QMwHFIAAUJc053.jpg">
+					</a>
+				</div>
+				<div class="jGoodsInfo">
+					<div title="明基（BenQ）MS3081+ 商务办公投影机" class="jDesc">
+						<a target="_blank" href="//item.jd.com/1000294.html">明基（BenQ）MS3081+ 商务办公投影机</a>
+					</div>
+					<div class="jPrice">
+						<div class="jdPrice">
+							<span class="jText">京东价：</span>
+							<span class="jRmb">¥</span>
+							<span class='jdNum'  jshop='price'  jdprice='1000294' ></span>
+						</div>
+					</div>
+					<div class="jBtnArea">
+						<a href="//cart.jd.com/cart/dynamic/gate.action?pid=1000294&amp;pcount=1&amp;ptype=1" target="_blank">点击抢购</a>
+					</div>
+				</div>
+			</div>
+		</li>
+            </ul>
+</div>
+     </div>
+
+	 </div>
+
+		 	  </div>
+     </div>
+</div>
+
+      <div class="d-layout-area " style="background:#f53445">
+     <div class='d-layout' id="5686617"   >
+	<div class='d-layout-one w990 '>
+	 
+
+
+		<div class=' userdefined-153704' instanceId='5686640'  style="margin-bottom:0px;" module-name="UserDefine" >
+
+	
+     <div class="mc" style=";min-height:0px;">
+		 <div class="j-module" module-function="autoCenter,rid" module-param="{}">
+	<div class="userDefinedArea" style="width:990px;">
+		<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  original="//img14.360buyimg.com/cms/jfs/t637/82/413270157/72086/f654c6fc/5465c2ceNb8692e21.jpg" width="990" height="218" alt="" id="dapai" />
+	</div>
+</div>
+     </div>
+
+	 </div>
+
+
+
+		<div class=' userdefined-153704' instanceId='5687115'  style="margin-bottom: 10px;" module-name="UserDefine" >
+
+	
+     <div class="mc" style=";min-height:0px;">
+		 <div class="j-module" module-function="autoCenter,rid" module-param="{}">
+	<div class="userDefinedArea" style="width:auto;">
+		<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  original="//img12.360buyimg.com/cms/jfs/t586/177/407653933/111410/bb38c0bf/5465bbaeN4d4a9ba3.jpg" alt="" width="990" height="590" usemap="#maplogo" border="0" />
+<map name="maplogo"> <area shape="rect" coords="16,22,245,96" href="//sale.jd.com/act/Tqz5Bectvd2ZWwLK.html" target="_blank" clstag="sale|keycount|5687115|1"></area> <area shape="rect" coords="259,19,457,95" href="//sale.jd.com/act/byckLQ1OP7GYoN.html" target="_blank" clstag="sale|keycount|5687115|2"></area> <area shape="rect" coords="485,16,719,94" href="//sale.jd.com/act/LWnTYEu6dBxjV5.html" target="_blank" clstag="sale|keycount|5687115|3"></area> <area shape="rect" coords="747,16,966,107" href=" //sale.jd.com/act/Yv7rJsBxIklh.html" target="_blank" clstag="sale|keycount|5687115|4"></area> <area shape="rect" coords="260,112,449,221" href="//sale.jd.com/act/HSKsiwD3rxGu.html " target="_blank" clstag="sale|keycount|5687115|6"></area> <area shape="rect" coords="25,115,223,216" href="//sale.jd.com/act/4tAUxT5iBmOed.html" target="_blank" clstag="sale|keycount|5687115|5"></area> <area shape="rect" coords="753,235,968,319" href="//sale.jd.com/act/UrOidwaPXt.html" target="_blank" clstag="sale|keycount|5687115|12"></area> <area shape="rect" coords="497,243,725,314" href="//sale.jd.com/act/VwfZIl16eOjr4Mt.html" target="_blank" clstag="sale|keycount|5687115|11"></area> <area shape="rect" coords="268,233,442,314" href="//sale.jd.com/act/7OkZYKwqTHf45a.html" target="_blank" clstag="sale|keycount|5687115|10"></area> <area shape="rect" coords="23,241,230,324" href="//sale.jd.com/act/QJ8O3deB2WtVgzaD.html" target="_blank" clstag="sale|keycount|5687115|9"></area> <area shape="rect" coords="749,116,973,232" href="//sale.jd.com/act/KoNbYBtpkUn.html" target="_blank" clstag="sale|keycount|5687115|8"></area> <area shape="rect" coords="481,120,711,215" href="//sale.jd.com/act/5pwq63QhIbL.html " target="_blank" clstag="sale|keycount|5687115|7"></area> <area shape="rect" coords="754,335,968,439" href="//sale.jd.com/act/amiNSgwUcODM8.html" target="_blank" clstag="sale|keycount|5687115|16"></area> <area shape="rect" coords="470,345,725,428" href="//sale.jd.com/act/u2x7cLMXWEHt.html " target="_blank" clstag="sale|keycount|5687115|15"></area> <area shape="rect" coords="267,325,432,450" href="httpsale.jd.comactTuReybckg1.html" target="_blank" clstag="sale|keycount|5687115|14"></area> <area shape="rect" coords="23,339,231,414" href="//sale.jd.com/act/TuReybckg1.html" target="_blank" clstag="sale|keycount|5687115|13"></area><area shape="rect" coords="29,458,205,551" href="//sale.jd.com/act/gcynwb4JfqhB.html" target="_blank" clstag="sale|keycount|5687115|17"></area><area shape="rect" coords="269,465,425,546" href="//sale.jd.com/act/xSmOojlL0e.html" target="_blank" clstag="sale|keycount|5687115|18"></area><area shape="rect" coords="513,444,656,554" href="//sale.jd.com/act/uj7sB1ShkwY5vNCp.html   " target="_blank" clstag="sale|keycount|5687115|19"></area><area shape="rect" coords="763,454,963,560" href="//sale.jd.com/mall/aXdkrNFALZ2ivYs.html  " target="_blank" clstag="sale|keycount|5687115|20"></area></map>
+	</div>
+</div>
+     </div>
+
+	 </div>
+
+		 	</div>
+     </div>
+</div>
+
+      <div class="d-layout-area " >
+     <div class='d-layout' id="5682385"   >
+	<div class='d-layout-one w990 '>
+	 
+
+
+		<div class=' sidePanel-153707' instanceId='5685333'  style="margin-bottom: 10px;" module-name="sidePanel" >
+
+	
+     <div class="mc" style=";min-height:0px;">
+		  <div class="j-module" module-function="base" module-param="{height:349,top:100,width:120,horizontal:2,show:1 
+}">
+   <div class="J-container">
+<!-- Save for Web Slices (返场期侧滑.psd) -->
+<img class="J_imgLazyload" src="//img14.360buyimg.com/cms/g10/M00/13/04/rBEQWFFj4PUIAAAAAAAESxyqJLUAADvdAIHC9oAAARj186.gif"  original="//img13.360buyimg.com/cms/jfs/t670/225/399900960/42466/42a5d529/546570c6Nce6405b8.jpg" alt="" width="120" height="349" usemap="#map201" border="0" />
+<map name="map201"> <area shape="rect" coords="13,89,109,121" href="#zhengji" clstag="sale|keycount|5669216|1"></area> <area shape="rect" coords="12,126,105,151" href="#shuma" clstag="sale|keycount|5669216|2"></area> <area shape="rect" coords="15,156,109,182" href="#diy" clstag="sale|keycount|5669216|3"></area> <area shape="rect" coords="13,188,112,213" href="#zhineng" clstag="sale|keycount|5669216|4"></area> <area shape="rect" coords="11,215,110,244" href="#waishe" clstag="sale|keycount|5669216|5"></area> <area shape="rect" coords="10,250,107,277" href="#bangong" clstag="sale|keycount|5669216|6"></area> <area shape="rect" coords="11,280,108,307" href="#dapai" clstag="sale|keycount|5685333|7"></area> <area shape="rect" coords="8,312,106,345" href="#" clstag="sale|keycount|5685333|8"></area></map>
+</div>
+</div>
+     </div>
+
+	 </div>
+
+		 	</div>
+     </div>
+</div>
+
+	
+
+	
+<!-- add by zhaohongbo -->
+<!-- 活动页面参数向下传递 -->
+<script>
+    (function() {
+        var jHref = $("a[href*='//'], area[href*='//']"), search = location.search;
+        jHref.each(function() {
+            var _this = $(this);
+            var href = _this.attr("href"), h = href, anchor = '';
+            if (href.indexOf('#') != -1) {
+                href = href.substring(0, href.indexOf('#'));
+                anchor = h.substring(h.indexOf('#'));
+            }
+
+            var arrUrl = href.split('?');
+            if(arrUrl.length === 1) {
+                _this.attr("href", href + search + anchor);
+            } else {
+                _this.attr("href", href + "&" + search.substring(1) + anchor);
+            }
+        });
+    })()
+</script>					<div align="center">
+				
+			</div>
+									<div style="text-align:center;" class="d-pad">
+        		<a target="_blank" title="" href="//c-nfa.jd.com/adclick?keyStr=z5AXFoIimt1jiDK32+w4mYhm0X76xynWc1dOV2nYzUVWK/th/uWWA2XSXhck8cTXiYO1izhl4VIYVFjZo0vru4urrglXtSZpBlRu2pQv+QVa4eG9P+LQ+i7XDdn0nvJz1oEwRbUsC6tQMin70asoR4aTNrHGMKKyrfVCe4u0/85xoX+n1qfwAEfWWFdN9bFr1E6138D0oJhUuV1/e4mfNAb2NLQ83mFbzuhg+6b+uB/LwGukAJtNQp19dKQuqsnXuzaKXnTwt3buwy+QvOiwpu64ACX7A5Dd3K9/av5isjsPA5w+Ee83KH706+MrVNXxKo1eXjSmPmbRHsRSIGfTudCi2+Ko4oM8LehxwVPkjI4=&cv=2.0&url=//sale.jd.com/act/1k5RrLgYKnUFWI6T.html?t=1463931873456"><img width="990" height="74" alt="" src="//img10.360buyimg.com/da/jfs/t2851/216/1540153455/45412/aeb3c861/5741d4d0N2a3c9d39.jpg"></a>
+
+            </div>
+							<div id="jshop-mobile-advertise" style="position:fixed;bottom:10px;">
+	
+</div>
+<script type="text/javascript">
+	if(jQuery.browser.msie&&jQuery.browser.version.match(/6\.0/g)){
+		var __original_top = $(window).height() - 90;
+		$('#jshop-mobile-advertise').css({
+			position : 'absolute',
+			top : __original_top + 'px'
+		});
+		$(window).bind('scroll resize',function(){
+			$('#jshop-mobile-advertise').css('top',$(this).scrollTop() + __original_top + 'px');
+		});
+	}			
+	$('#jshop-mobile-advertise').css({
+		right : '50%',
+		marginRight : '505px'
+	});
+</script>			 </div>
+	 <div class="d-price-tips" style="padding:20px 0; text-align:center; font-size:14px; line-height:16px;"><em style="display:inline-block; vertical-align:middle; width:16px; height:16px; margin-right:5px; background:url(//img11.360buyimg.com/cms/jfs/t2125/60/2123383296/1541/97f969bc/56b197daNefbff474.gif)"></em>因可能存在系统缓存、页面更新导致价格变动异常等不确定性情况出现，如您发现活动商品标价或促销信息有异常，请您立即联系我们，以便我们及时补正。</div>
+	<div class="d-pad">
+		<div id="service-2014">
+	<div class="slogen">
+		<span class="item fore1">
+			<i></i><b>多</b>品类齐全，轻松购物
+		</span>
+		<span class="item fore2">
+			<i></i><b>快</b>多仓直发，极速配送
+		</span>
+		<span class="item fore3">
+			<i></i><b>好</b>正品行货，精致服务
+		</span>
+		<span class="item fore4">
+			<i></i><b>省</b>天天低价，畅选无忧
+		</span>
+	</div>
+	<div class="w">
+		<dl class="fore1">
+			<dt>购物指南</dt>
+			<dd>
+				<div><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-29.html">购物流程</a></div>
+				<div><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-151.html">会员介绍</a></div>
+				<div><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-297.html">生活旅行/团购</a></div>
+				<div><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue.html">常见问题</a></div>
+				<div><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-136.html">大家电</a></div>
+				<div><a rel="nofollow" target="_blank" href="//help.jd.com/user/index.html">联系客服</a></div>
+			</dd>
+		</dl>
+		<dl class="fore2">		
+			<dt>配送方式</dt>
+			<dd>
+				<div><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-81-100.html">上门自提</a></div>
+				<div><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-81.html">211限时达</a></div>
+				<div><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/103-983.html">配送服务查询</a></div>
+				<div><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/109-188.html">配送费收取标准</a></div>				
+				<div><a target="_blank" href="//en.jd.com/chinese.html">海外配送</a></div>
+			</dd>
+		</dl>
+		<dl class="fore3">
+			<dt>支付方式</dt>
+			<dd>
+				<div><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-172.html">货到付款</a></div>
+				<div><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-173.html">在线支付</a></div>
+				<div><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-176.html">分期付款</a></div>
+				<div><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-174.html">邮局汇款</a></div>
+				<div><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-175.html">公司转账</a></div>
+			</dd>
+		</dl>
+		<dl class="fore4">		
+			<dt>售后服务</dt>
+			<dd>
+				<div><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/321-981.html">售后政策</a></div>
+				<div><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-132.html">价格保护</a></div>
+				<div><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/130-978.html">退款说明</a></div>
+				<div><a rel="nofollow" target="_blank" href="//myjd.jd.com/repair/repairs.action">返修/退换货</a></div>
+				<div><a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-50.html">取消订单</a></div>
+			</dd>
+		</dl>
+		<dl class="fore5">
+			<dt>特色服务</dt>
+			<dd>		
+				<div><a target="_blank" href="//help.jd.com/user/issue/list-133.html">夺宝岛</a></div>
+				<div><a target="_blank" href="//help.jd.com/user/issue/list-134.html">DIY装机</a></div>
+				<div><a rel="nofollow" target="_blank" href="//fuwu.jd.com/">延保服务</a></div>
+				<div><a rel="nofollow" target="_blank" href="//giftcard.jd.com/market/index.action">京东E卡</a></div>				
+				<div><a rel="nofollow" target="_blank" href="//mobile.jd.com/">京东通信</a></div>
+				<div><a rel="nofollow" target="_blank" href="//s.jd.com/">京东JD+</a></div>
+			</dd>
+		</dl>
+		<span class="clr"></span>
+	</div>
+</div>
+		<div class="w">
+	<div id="footer-2014">
+		<div class="links">
+			<a rel="nofollow" target="_blank" href="//www.jd.com/intro/about.aspx">关于我们</a>|<a rel="nofollow" target="_blank" href="//www.jd.com/contact/">联系我们</a>|<a rel="nofollow" target="_blank" href="//www.jd.com/contact/joinin.aspx">商家入驻</a>|<a rel="nofollow" target="_blank" href="//jzt.jd.com">营销中心</a>|<a rel="nofollow" target="_blank" href="//app.jd.com/">手机京东</a>|<a target="_blank" href="//club.jd.com/links.aspx">友情链接</a>|<a target="_blank" href="//media.jd.com/">销售联盟</a>|<a href="//club.jd.com/" target="_blank">京东社区</a>|<a href="//gongyi.jd.com" target="_blank">京东公益</a>|<a href="//en.jd.com/" target="_blank">English Site</a>|<a href="//en.jd.com/help/question-58.html" target="_blank">Contact Us</a>
+		</div>
+		<div class="copyright">
+			北京市公安局朝阳分局备案编号110105014669  |  京ICP证070359号  |  <a target="_blank" href="http://img14.360buyimg.com/da/jfs/t256/349/769670066/270505/3b03e0bb/53f16c24N7c04d9e9.jpg">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a>  |  新出发京零 字第大120007号<br><a rel="nofollow" href="http://misc.360buyimg.com/skin/df/i/com/f_music.jpg" target="_blank">音像制品经营许可证苏宿批005号</a>  |  出版物经营许可证编号新出发(苏)批字第N-012号  |  互联网出版许可证编号新出网证(京)字150号<br><a href="http://misc.360buyimg.com/wz/wlwhjyxkz.jpg" target="_blank">网络文化经营许可证京网文[2014]2148-348号</a>  违法和不良信息举报电话：4006561155  Copyright © 2004-2016  京东JD.com 版权所有<br>京东旗下网站：<a href="https://www.wangyin.com/" target="_blank">网银在线</a>
+		</div>
+		
+		<div class="authentication">
+			<a rel="nofollow" target="_blank" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202007080200026">
+				<img width="103" height="32" alt="经营性网站备案中心" src="//img12.360buyimg.com/da/jfs/t535/349/1185317137/2350/7fc5b9e4/54b8871eNa9a7067e.png"/>
+			</a>
+			<script type="text/JavaScript">function CNNIC_change(eleId){var str= document.getElementById(eleId).href;var str1 =str.substring(0,(str.length-6));str1+=CNNIC_RndNum(6); document.getElementById(eleId).href=str1;}function CNNIC_RndNum(k){var rnd=""; for (var i=0;i < k;i++) rnd+=Math.floor(Math.random()*10); return rnd;}</script>
+			<a rel="nofollow" target="_blank" id="urlknet" tabindex="-1" href="https://ss.knet.cn/verifyseal.dll?sn=2008070300100000031&ct=df&pa=294005">
+				<img border="true" width="103" height="32" onclick="CNNIC_change('urlknet')" oncontextmenu="return false;" name="CNNIC_seal" alt="可信网站" src="//img11.360buyimg.com/da/jfs/t643/61/1174624553/2576/4037eb5f/54b8872dNe37a9860.png"/>
+			</a>
+			<a rel="nofollow" target="_blank" href="http://www.bj.cyberpolice.cn/index.do">
+				<img width="103" height="32" alt="朝阳网络警察" src="//img11.360buyimg.com/da/jfs/t559/186/1172042286/2795/7d90b036/54b8874bN694454a5.png"/>
+			</a>
+			<a rel="nofollow" target="_blank" href="https://search.szfw.org/cert/l/CX20120111001803001836">
+				<img width="103" height="32" src="//img11.360buyimg.com/da/jfs/t451/173/1189513923/1992/ec69b14a/54b8875fNad1e0c4c.png"/>
+			</a>
+			<a target="_blank" href="http://jubao.china.cn:13225/reportform.do">
+				<img width="185" height="32" src="//img10.360buyimg.com/da/jfs/t520/303/1151687373/1180/2f8340fc/54b8863dN8d2c61ec.png"/>
+			</a>
+		</div>
+	</div>
+</div>
+	</div>
+	
+	<!--201509 by cdwanchuan-->
+	<script type="text/javascript" src="//static.360buyimg.com/jshop/sale-p/view/20151221110035/script/??module/utils.js,module/Module.js?t=201605122327"></script>
+	<script type="text/javascript" src="//static.360buyimg.com/jshop/sale-p/view/20151221110035/script/??CookieUtil.js,lib-v1.js?t=201605122327"></script>
+	<script src="//static.360buyimg.com/jshop/sale-p/view/20151221110035/script/view/entrance.js?t=201605122327"></script>
+	<script src="//static.360buyimg.com/jshop/sale-p/view/20151221110035/script/??jshop.lib-v1.js?t=201605122327"></script>
+		<script language="javascript" src="//static.360buyimg.com/jshop/sale-p/view/20151221110035/script/??advertise.js?t=201605122327"></script>
+				<style type="text/css">
+	.acti-tip2-cont{
+		position: fixed;
+		_position:absolute;
+		_zoom: 1;
+		width: 390px;
+		height: 167px;
+		padding: 30px;
+		background-color: #fff;
+		border: 6px solid #C53735;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		color: #232323;
+		display:none;
+		z-index:12;
+	}
+	.acti-tip2-cont .middle{
+		text-align: left;
+	}
+	.acti-tip2-cont .middle p{
+		font-family:"Microsoft YaHei";
+		font-size: 16px;
+		margin: 0 0 10px 0;
+		padding: 0;
+	}
+	.acti-tip2-cont .bottom{
+		margin-top: 70px;
+		font-family: "\5b8b\4f53";
+		font-size: 13px;
+	}
+	.acti-tip2-cont .bottom span{
+		color: #FD0100;
+	}
+	.acti-tip2-cont .go{
+		position: absolute;
+		right: -3px;
+		bottom: 28px;
+	}
+	.acti-tip2-cont .go .joy{
+		width: 86px;
+		height: 84px;
+		position: absolute;
+		right: 25px;
+		bottom: 12px;
+		background: url(//img12.360buyimg.com/cms/g13/M08/03/12/rBEhVFHShlMIAAAAAAAm5j3fJcgAAAs6QBX-GEAACb-197.png) no-repeat;
+		_background: none;
+		_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://img12.360buyimg.com/cms/g13/M08/03/12/rBEhVFHShlMIAAAAAAAm5j3fJcgAAAs6QBX-GEAACb-197.png');
+	}
+	.acti-tip2-cont .go:hover .joy{
+		-moz-transform:           rotate(-15deg);
+		-webkit-transform:        rotate(-15deg);
+		-o-transform:             rotate(-15deg);
+		transform:                rotate(-15deg);
+		bottom: 22px;
+	}
+	.adva-btn {
+		display: block;
+		position: relative;
+		width: 120px;
+		height: 25px;
+		line-height: 25px;
+		background-color: #E33D3F;
+		font-family:"Microsoft YaHei";
+		font-size: 16px;
+		text-decoration: none;
+		color: #fff;
+		outline: 0;
+		text-align: center;
+		padding: 10px 50px 10px 20px;
+		background-image: linear-gradient(bottom, rgb(62, 51, 46) 0%, rgb(101, 86, 78) 100%);
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		-moz-box-shadow: inset 0px 1px 0px #9e8d84, 0px 5px 0px 0px #B91A1E, 0px 10px 5px #999;
+		-webkit-box-shadow: inset 0px 1px 0px #9e8d84, 0px 5px 0px 0px #B91A1E, 0px 10px 5px #999;
+		box-shadow: inset 0px 1px 0px #9e8d84, 0px 5px 0px 0px #B91A1E, 0px 10px 5px #999;
+		filter: progid:DXImageTransform.Microsoft.Shadow(Strength=7,Direction=135,Color='#9e8d84');
+		*filter: ;
+	}
+	.adva-btn label{
+		display: block;
+		position: absolute;
+		width: 23px;
+		height: 46px;
+		top: 0;
+		left: 188px;
+		background: url(//img13.360buyimg.com/cms/g14/M08/03/14/rBEhVVHShRIIAAAAAAABhXdsdWYAAAtsAP__hEAAAHv500.png) no-repeat;
+		_background: none;
+		_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://img13.360buyimg.com/cms/g14/M08/03/14/rBEhVVHShRIIAAAAAAABhXdsdWYAAAtsAP__hEAAAHv500.png');
+	}
+	.adva-btn:active {
+		top: 3px;
+		background-image: linear-gradient(bottom, rgb(62, 51, 46) 100%, rgb(101, 86, 78) 0%);
+		-moz-box-shadow: inset 0px 1px 0px #9e8d84, 0px 2px 0px 0px #B91A1E, 0px 5px 3px #999;
+		-webkit-box-shadow: inset 0px 1px 0px #9e8d84, 0px 2px 0px 0px #B91A1E, 0px 5px 3px #999;
+		box-shadow: inset 0px 1px 0px #9e8d84, 0px 2px 0px 0px #B91A1E, 0px 5px 3px #999;
+	}
+	.adva-btn::before {
+		background-color: #B91A1E;
+		background-image: url(//img11.360buyimg.com/cms/g13/M08/03/12/rBEhU1HShq0IAAAAAAALnz8U6bcAAAs6QP_8ikAAAu3944.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		content: "";
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		right: 15px;
+		top: 50%;
+		margin-top: -9px;
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+		-moz-box-shadow: inset 0px 1px 0px #19120f, 0px 1px 0px #827066;
+		-webkit-box-shadow: inset 0px 1px 0px #19120f, 0px 1px 0px #827066;
+		box-shadow: inset 0px 1px 0px #19120f, 0px 1px 0px #827066;
+	}
+	.adva-btn:active::before {
+		top: 50%;
+		margin-top: -12px;
+		-moz-box-shadow: inset 0px 1px 0px #827066, 0px 3px 0px #19120f, 0px 6px 3px #382e29;
+		-webkit-box-shadow: inset 0px 1px 0px #827066, 0px 3px 0px #19120f, 0px 6px 3px #382e29;
+		box-shadow: inset 0px 1px 0px #827066, 0px 3px 0px #19120f, 0px 6px 3px #382e29;
+	}
+</style>
+
+
+	
+			<script id="jshopSidebar" src="//static.360buyimg.com/jshop/common/utility/sidebar/sidebar.js?type=0&id=212846" type="text/javascript" charset="UTF-8"></script>
+<img src="//jcm.jd.com/pre" width="1" height="1" style="display:none;"/>		<script type="text/javascript" src="//wl.jd.com/wl.js"></script>
+
+
+	<!--京东主站相关-->
+      </body>
+</html>

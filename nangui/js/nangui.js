@@ -81,7 +81,7 @@
 		  $(function() {
       $("img.lazy").show().lazyload({
 		  effect: "fadeIn",
-          threshold :300
+          threshold :600
 		  });
   });
   
