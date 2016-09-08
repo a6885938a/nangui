@@ -1,5 +1,5 @@
 <link rel="icon" href="../assets/img/favicon.ico">
-<link href="http://t1.mcp.cn/oshpgkml/644502/nangui/css/bootstrap.min.css" rel="stylesheet">
+<link href="http://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 <link rel='stylesheet' href='../css/vendor.css'>
 <link rel='stylesheet' href='../css/style.css'>
 <link rel='stylesheet' href='../css/product.css'>
