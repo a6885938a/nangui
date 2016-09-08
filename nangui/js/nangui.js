@@ -1,4 +1,11 @@
 //回到顶部.
+//      //lazzy load
+          $(function() {
+      $("img.lazy").show().lazyload({
+          effect: "fadeIn",
+          threshold :50
+          });
+  });
         $(function() {
             var e = $("#rocket-to-top"),
             t = $(document).scrollTop(),
@@ -77,13 +84,7 @@
         });
 		
 		
-		//lazzy load
-		  $(function() {
-      $("img.lazy").show().lazyload({
-		  effect: "fadeIn",
-          threshold :50
-		  });
-  });
+
   
   //main
     $(window).scroll(function(){
